@@ -1,0 +1,19 @@
+header:
+  - titles:
+      en:       Blog
+      zh:       博客
+      zh-Hans:  博客
+      zh-Hant:  博客
+    url:        /blog.html
+  - titles:
+      en:       Project
+      zh:       项目
+      zh-Hans:  项目
+      zh-Hant:  项目
+    url:        /project.html
+  - titles:
+      en:       About
+      zh:       关于
+      zh-Hans:  关于
+      zh-Hant:  關於
+    url:        /about.html
