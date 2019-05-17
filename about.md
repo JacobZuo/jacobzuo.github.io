@@ -59,7 +59,6 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 **[5]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
 ## Conference presentations:
-*
 
 **Presentation**  
 Wenlong Zuo. "Cell motility and antibiotic tolerance of bacterial swarms." APS March Meeting 2016.
