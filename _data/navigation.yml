@@ -4,7 +4,7 @@ header:
       zh:       博客
       zh-Hans:  博客
       zh-Hant:  博客
-    url:        /blog.html
+    url:        /blog/index.html
   - titles:
       en:       Project
       zh:       项目

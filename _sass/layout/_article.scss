@@ -8,7 +8,9 @@
     color: $text-color-l;
     .article__license {
       img {
-        height: map-get($base, font-size) * 1.6;
+        vertical-align: middle;
+        width: map-get($base, font-size) * 5.33;
+        height: map-get($base, font-size) * 1;
       }
       a {
         @include link-colors($text-color, $main-color-1);

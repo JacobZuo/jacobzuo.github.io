@@ -1,0 +1,5 @@
+img{
+  positon: relative;
+  width:100%;
+  left:0%;/*left为（img父元素元素的width - img元素自己的width)÷2*/
+}

@@ -94,8 +94,8 @@ chart: # false (default), true
 
 ## => Paginate
 ##############################
-# paginate: 8
-# paginate_path: /blog/page:num # don't change this unless for special need
+paginate: 8
+paginate_path: blog/page:num # don't change this unless for special need
 
 
 ## => Sources
@@ -188,8 +188,6 @@ exclude:
   - /vendor
 
 collections:
-  blog:
-    output: true
   project:
     output: true
 

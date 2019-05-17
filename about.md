@@ -69,7 +69,7 @@ Wenlong Zuo, and Yilin Wu. "Collective stress tolerance during bacterial swarmin
 
 ## Teaching:
 
-Teaching assistant of course 'Instromentation', 2015 -- 2017;
+Teaching assistant of course 'Instrumentation', 2015 -- 2017;
 
 ## Awards and Honors:
 
