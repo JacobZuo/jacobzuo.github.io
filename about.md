@@ -14,39 +14,35 @@ E-mail: zwlong ```at``` live.com
 
 ## Education:
 
-**PhD student**, Department of Physics, The Chinese University of Hong Kong.  2014 -- present
-
+**PhD student**, Department of Physics, The Chinese University of Hong Kong.  2014 -- present  
 Supervisor: Prof. WU, Yilin
 
-**MPhil in Condensed Matter Physics**, School of Physics and Engineering, Sun Yat-sen University. 2010 -- 2013
-
+**MPhil in Condensed Matter Physics**, School of Physics and Engineering, Sun Yat-sen University. 2010 -- 2013  
 Supervisor: Prof. XIONG, Xiaomin
 
 **B.S. in Materials Physics**, School of Physics and Engineering, Sun Yat-sen University. 2006 -- 2010
 
 ## Research interest:
 
-Emergent phenomena in nonequilibrium system. Self organization in active matter. Intracellular and intercellular signal pathway. Competition and cooperation at intraspecies and interspecies. Adaptation and evolution under environmental stress.
+* Emergent phenomena in nonequilibrium system.  
+* Self organization in active matter.   
+* Intracellular and intercellular signal pathway.   
+* Competition and cooperation at intraspecies and interspecies.   
+* Adaptation and evolution under environmental stress.
 
 ## Research and Professional Experience:
 
-**08/2014 -- present**
-
+**08/2014 -- present**  
 Collective tolerance in bacteria swarming.
 
-**10/2012 -- 12/2013**
-
-Development of a mechanical spectrometer based on the AFM which the AFM cantilever can be driven by electromagnetic force and work under active mode.
-
+**10/2012 -- 12/2013**  
+Development of a mechanical spectrometer based on the AFM which the AFM cantilever can be driven by electromagnetic force and work under active mode.  
 Surface wave on the air-water interface by out homemade mechanical spectrometer based on AFM.
 Microstructure and its evolution of electro-rheological fluid by mechanical spectrum.
 
-**10/2009 -- 09/2012**
-
-Energy dissipation of shear wave in the solid-liquid interface.
-
-Development of a viscoelastic spectrometer of soft matter based on the torsion pendulum.
-
+**10/2009 -- 09/2012**  
+Energy dissipation of shear wave in the solid-liquid interface.  
+Development of a viscoelastic spectrometer of soft matter based on the torsion pendulum.  
 Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detecting the higher harmonic of the sample strain under an alternating stress.
 
 
@@ -63,14 +59,12 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 **[5]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
 ## Conference presentations:
+*
 
-
-**Presentation**
-
+**Presentation**  
 Wenlong Zuo. "Cell motility and antibiotic tolerance of bacterial swarms." APS March Meeting 2016.
 
-**Poster**
-
+**Poster**  
 Wenlong Zuo, and Yilin Wu. "Collective stress tolerance during bacterial swarming." APS March Meeting 2018.
 
 
@@ -83,8 +77,8 @@ Teaching assistant of course 'Instromentation', 2015 -- 2017;
 TA award 2016 -- 2017
 
 ## Others
-Github Page: https://jacobzuo.github.io
-Wechat Suscription Account: Jacob-Press
+Github Page: [Jacob Press on Github](https://jacobzuo.github.io "Jacob Press on Github").  
+Wechat Suscription Account: [Jacob-Press](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4MjYzMTcwNQ==&subscene=0#wechat_redirect "Jacob Press")
 
 
 
