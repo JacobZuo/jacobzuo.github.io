@@ -106,11 +106,11 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis"
+  provider: addthis # false (default), "addtoany", "addthis"
 
   ## AddThis
   addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+    id: ra-5cdf71780c3e4bfa # AddThis pubid, e.g. ra-5xxxxxxxxxxx
 
 
 ## => Comments
@@ -143,24 +143,24 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : 2Wg0O3L0SVymyy1OgP7uNVa7-gzGzoHsz # LeanCloud App id
+    app_key   : tWulLT9Fel8ELtfAwvGXf86h # LeanCloud App key
+    app_class : Counts # LeanCloud App class
 
 
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    tracking_id : UA-140447626-1 # Google Analytics id for the site
+    anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
 ## => Build
@@ -199,8 +199,7 @@ defaults:
       layout: article
       sharing: true
       license: true
-      aside:
-        toc: true
+      aside: false
       show_edit_on_github: true
       pageview: true
 

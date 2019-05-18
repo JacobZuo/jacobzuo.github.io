@@ -1,7 +1,9 @@
 ---
 layout: article
+sharing: true
 title: 柴静的《看见》与看见的柴静
 author: Jacob Zuo
+key: 20190517-See-In-Chai-Jing
 tags: Reading
 cover: /assets/images/2019-05-17-See-In-ChaiJing/cover.jpg
 mode: immersive
