@@ -4,7 +4,7 @@ sharing: true
 title: 柴静的《看见》与看见的柴静
 author: Jacob Zuo
 key: 20190517-See-In-Chai-Jing
-tags: Reading
+tags: Reading 纪实文学
 cover: /assets/images/2019-05-17-See-In-ChaiJing/cover.jpg
 mode: immersive
 header:
@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#203028'
+  background_color: '#1b0f11'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-17-See-In-ChaiJing/cover.jpg
@@ -20,7 +20,7 @@ article_header:
 
 **我觉得媒体报道特别需要一个这样的镜头——崔老永元**
 
-![]({{site.url}}/assets/images/2019-05-17-See-In-ChaiJing/cover.jpg#width-full "题图")
+![]({{site.url}}/assets/images/2019-05-17-See-In-ChaiJing/cover.jpg#width-full "方所签售现场")
 
 <!--more-->
 
