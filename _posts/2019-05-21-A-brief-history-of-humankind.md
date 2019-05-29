@@ -1,7 +1,7 @@
 ---
 layout: article
 sharing: true
-title: 人类大历史————从野兽到扮演上帝
+title: 人类大历史——从野兽到扮演上帝
 author: Jacob Zuo
 key: 20190521-A-brief-history-of-humankind
 tags: Reading 历史 社会学

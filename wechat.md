@@ -1,7 +1,7 @@
 ---
 layout: article
 comment: false
-title: 微信公众号————乱七八糟的雅各布
+title: 微信公众号——乱七八糟的雅各布
 mode: immersive
 header:
   theme: dark
