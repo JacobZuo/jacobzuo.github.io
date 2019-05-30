@@ -3,7 +3,7 @@ layout: article
 sharing: true
 title: 细节：如何轻松影响他人
 author: Jacob Zuo
-key: 20190523-Details
+key: 20190523-The-small-big
 tags: Reading 心理学
 cover: /assets/images/2019-05-23-The-small-big/cover-suqare.jpg
 mode: immersive

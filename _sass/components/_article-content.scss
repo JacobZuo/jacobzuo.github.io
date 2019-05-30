@@ -203,8 +203,9 @@
     }
   }
   table {
-    display: block;
-    width: 100%;
+    display: table;
+    margin: auto;
+    min-width: 75%;
     border-collapse: collapse;
     @include overflow(auto);
     thead, tfoot {
