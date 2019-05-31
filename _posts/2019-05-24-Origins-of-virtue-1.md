@@ -22,6 +22,7 @@ article_header:
 
 ![]({{site.url}}/assets/images/2019-05-24-Origins-of-virtue-1/cover-clear.jpg)
 
+<!--more-->
 
 **自私的基因**
 
