@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#912429'
+  background_color: '#000'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-25-Origins-of-virtue-2/cover.jpg
