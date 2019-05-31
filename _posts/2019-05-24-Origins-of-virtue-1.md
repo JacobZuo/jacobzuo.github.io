@@ -3,9 +3,9 @@ layout: article
 sharing: true
 title: 美德的起源（上）——非零和游戏中的互惠互利
 author: Jacob Zuo
-key: 20190524-Origions-of-virtue-1
+key: 20190524-Origins-of-virtue-1
 tags: Reading 社会学 心理学
-cover: /assets/images/2019-05-24-Origions-of-virtue-1/cover-suqare.jpg
+cover: /assets/images/2019-05-24-Origins-of-virtue-1/cover-suqare.jpg
 mode: immersive
 header:
   theme: dark
@@ -15,14 +15,13 @@ article_header:
   background_color: '#912429'
   background_image: 
     gradient: 
-    src: /assets/images/2019-05-24-Origions-of-virtue-1/cover.jpg
+    src: /assets/images/2019-05-24-Origins-of-virtue-1/cover.jpg
 ---
 
 这本书和《理性乐观派：一部人类经济学史》以及《先天后天：基因、经验及什么是我们成为人》是马特·里德利（Matt Ridely）最经典的三部作品。进化（Evolution）应该是自然科学中被大众谈论最多的话题，达尔文的“物竞天择，适者生存”不仅被用来解释生物物种的消释和变迁，也在社会学中被用来解释各种现象的形成和变化。《美德的起源》一方面从基因的角度出发，描述了在自然选择中被保留下来的受基因影响的合作与竞争模式；一方面从理性思维和感性思维出发，描述了人类现代社会互惠，战争，贸易，法律等的社会学起源。
 
-![]({{site.url}}/assets/images/2019-05-24-Origions-of-virtue-1/cover-clear.jpg)
+![]({{site.url}}/assets/images/2019-05-24-Origins-of-virtue-1/cover-clear.jpg)
 
-<!--more-->
 
 **自私的基因**
 
