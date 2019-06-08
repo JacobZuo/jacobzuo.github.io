@@ -4,7 +4,7 @@ sharing: true
 title: 机会：确定性的丧失——Turning Uncertainty into Possibility
 author: Jacob Zuo
 key: 20190530-Turning-uncertainty-into-possibility
-tags: Reading 诗歌 文学
+tags: Reading 心理学
 cover: /assets/images/2019-05-30-Turning-uncertainty-into-possibility/cover-suqare.jpg
 mode: immersive
 header:
