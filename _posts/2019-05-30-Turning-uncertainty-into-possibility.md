@@ -1,7 +1,7 @@
 ---
 layout: article
 sharing: true
-title: 机会：确定性的丧失——Turning Uncertainty into Possibility.
+title: 机会：确定性的丧失——Turning Uncertainty into Possibility
 author: Jacob Zuo
 key: 20190530-Turning-uncertainty-into-possibility
 tags: Reading 诗歌 文学
