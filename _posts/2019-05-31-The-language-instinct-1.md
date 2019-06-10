@@ -51,11 +51,11 @@ article_header:
 
 以 “The happy boy eats ice cream” 为例。“The happy boy” 构成了一个名词短语（NP），一个名词短语由一个前置冠词（det）若干个形容词（A）以及一个名词（N）构成：NP-->(det) A N。 此外还有两个规则，一个句子（S）有一个名词短语（NP）和一个动词短语（VP）组成，一个动词短语（VP）由一个动词（V）和一个名词短语（NP）组成。现在我们就可以根据心理词典规定的词性来构成这句话。
 
-![]({{site.url}}/assets/images/2019-05-31-The-language-instinct-1/Tree-1.jpg)
+![]({{site.url}}/assets/images/2019-05-31-The-language-instinct-1/Tree-1.png)
 
 这个树状的结构是一个功能强大的设计，它可以用来把单词放到合适的位置，避免字串机带来的问题。同时它是模块化的，根据这一设计，我们可以向每个部分插入另一个组件，从而构成任意复杂的句子。例如我们可以构建一个复杂的嵌套规则：S--> either S or S 以及 S--> if S then S，那么我们就可以构建一个复杂的复合句。
 
-![]({{site.url}}/assets/images/2019-05-31-The-language-instinct-1/Tree-2.jpg)
+![]({{site.url}}/assets/images/2019-05-31-The-language-instinct-1/Tree-2.png)
 
 人类所掌握的构建词汇和句子的框架规则是线性的字符串机器无法比拟的，正如乔伊斯·基尔默（Joyce Kilmer）的一句诗：“只有上帝才能造出一棵树。”使用短语和嵌套的形式构建复杂的语言语法并不是后天习得的，而是**人类基于心理词典和心理语法的语言本能。**
 
