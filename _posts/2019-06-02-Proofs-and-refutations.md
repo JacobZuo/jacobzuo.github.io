@@ -3,7 +3,7 @@ layout: article
 sharing: true
 title: 证明与反驳：数学发现的逻辑
 author: Jacob Zuo
-key: 20190502-Proofs-and-refutations
+key: 20190602-Proofs-and-refutations
 tags: Reading 数学
 cover: /assets/images/2019-06-02-Proofs-and-refutations/cover-suqare.jpg
 mode: immersive
