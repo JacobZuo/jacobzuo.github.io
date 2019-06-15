@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#e8e270'
+  background_color: '#E3E374'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-18-Why-Grow-Up/cover.jpg

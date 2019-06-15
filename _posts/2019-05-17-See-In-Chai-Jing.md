@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#1b0f11'
+  background_color: '#110C10'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-17-See-In-ChaiJing/cover.jpg

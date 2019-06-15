@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#ded1c6'
+  background_color: '#DCD2C9'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-20-A-poetry-book/cover.jpg

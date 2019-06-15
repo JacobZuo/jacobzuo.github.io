@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#0273b7'
+  background_color: '#0873B3'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-19-Courage-to-be-Disliked/cover.jpg
