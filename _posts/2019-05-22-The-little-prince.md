@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#050636'
+  background_color: '#040636'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-22-The-little-prince/cover.jpg

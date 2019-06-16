@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#bfb4a2'
+  background_color: '#C0BE93'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-21-A-brief-history-of-humankind/cover.jpg
