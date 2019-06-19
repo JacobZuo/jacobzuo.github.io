@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#000'
+  background_color: '#070C16'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-28-A-brief-history-of-future/cover.jpg

@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#E1D2BF'
+  background_color: '#E0CEB7'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-27-In-order-to-live/cover.jpg

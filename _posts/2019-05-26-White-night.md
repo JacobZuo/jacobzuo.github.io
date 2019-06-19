@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#f0f0f0'
+  background_color: '#F1F1EF'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-26-White-night/cover.jpg
