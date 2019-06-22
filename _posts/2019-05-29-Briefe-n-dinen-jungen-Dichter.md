@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#d6d3d6'
+  background_color: '#C8C7C8'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-29-Briefe-n-dinen-jungen-Dichter/cover.jpg

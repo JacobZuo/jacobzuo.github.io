@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#ffdf07'
+  background_color: '#D9C107'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-30-Turning-uncertainty-into-possibility/cover.jpg
