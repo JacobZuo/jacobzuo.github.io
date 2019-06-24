@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#576db3'
+  background_color: '#4D5D95'
   background_image: 
     gradient: 
     src: /assets/images/2019-05-31-The-language-instinct-1/cover.jpg

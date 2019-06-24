@@ -12,7 +12,7 @@ header:
 article_header:
   type: overlay
   theme: dark
-  background_color: '#b632a29'
+  background_color: '#3A1D1C'
   background_image: 
     gradient: 
     src: /assets/images/2019-06-02-Proofs-and-refutations/cover.jpg
