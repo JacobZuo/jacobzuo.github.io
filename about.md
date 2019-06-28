@@ -1,7 +1,6 @@
 ---
 layout: article
 title: ZUO，Wenlong
-key: page-about
 ---
 
 ## Contact
