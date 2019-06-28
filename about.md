@@ -2,8 +2,7 @@
 layout: article
 title: ZUO，Wenlong
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
-key: page-about
+  provider: false
 ---
 
 ## Contact
