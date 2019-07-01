@@ -77,7 +77,8 @@ TA award 2016 -- 2017
 
 ## Others
 Github Page: [Jacob Press on Github](https://jacobzuo.github.io "Jacob Press on Github").  
-Wechat Suscription Account: [Jacob-Press](https://jacobzuo.github.io/wechat.html "Jacob Press")
+Github Home: [Github: Jacob Zuo](https://github.com/JacobZuo "Github: Jacob Zuo").
+Wechat Suscription Account: [Jacob-Press](https://jacobzuo.github.io/wechat.html "Jacob Press").
 
 
 
