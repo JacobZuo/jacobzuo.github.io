@@ -14,7 +14,7 @@ article_header:
 ---
 
 <div class="hero hero--center">
-  <img src="\assets\images\Reading.jpg"/>
+  <a href="/blog/index.html"><img src="\assets\images\Reading.jpg"/></a>
   <div class="hero hero--center" style="position: absolute; padding-top: 30%; width: 100%">
   <h2>Gain Ideas from Visionaries</h2>
   </div>
