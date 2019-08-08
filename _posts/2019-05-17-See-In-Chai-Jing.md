@@ -39,3 +39,12 @@ article_header:
 ![]({{site.url}}/assets/images/2019-05-17-See-In-ChaiJing/fig-2.jpg "签名")
 
 我断断续续的看了几个晚上，南方入了冬的天气有点冷，披着被子坐在桌前。看到最后一章的时候索性窝在床上了，然后聆听陈虻老师的教诲：“不要因为走的太远，而忘了我们为什么出发”
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Why-Grow-Up.jpg "为什么长大？")]({% post_url 2019-05-18-Why-Grow-Up %})
+
+[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "为什么长大？")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
+
+[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为什么长大？")]({% post_url 2019-05-27-In-order-to-live %})
