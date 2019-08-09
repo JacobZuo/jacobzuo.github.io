@@ -42,3 +42,12 @@ article_header:
 这本书从哲学的角度向我们展示了成年比我们所想象的更艰难，这也是哲学解决问题的真正办法，首先解释我们在多大程度上忽略了这个问题，进而呈现事物的整体。
 
 康德说，**成长最需要的是勇气而不是知识**，我们的不成熟要归咎我们自己，我们需要有通过成长摆脱不成熟的勇气。**我们不仅仅应该学会怎么应对所处的世界，在理想状态下，我们要学会准备好去创造一个更好的世界。**
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "被讨厌的勇气")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
+
+[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为了活下去")]({% post_url 2019-05-27-In-order-to-live %})
+
+[![]({{site.url}}/assets/images/LinkImage/The-little-prince.jpg "小王子")]({% post_url 2019-05-22-The-little-prince %})

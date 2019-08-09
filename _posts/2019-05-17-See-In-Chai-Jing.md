@@ -45,6 +45,6 @@ article_header:
 
 [![]({{site.url}}/assets/images/LinkImage/Why-Grow-Up.jpg "为什么长大？")]({% post_url 2019-05-18-Why-Grow-Up %})
 
-[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "为什么长大？")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
+[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "被讨厌的勇气")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
 
-[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为什么长大？")]({% post_url 2019-05-27-In-order-to-live %})
+[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为了活下去")]({% post_url 2019-05-27-In-order-to-live %})
