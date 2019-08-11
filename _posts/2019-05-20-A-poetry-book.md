@@ -160,3 +160,12 @@ article_header:
 > The idle singer of an empty day...  
 
 我只是个空虚时代的无用诗人。
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/The-little-prince.jpg "小王子")]({% post_url 2019-05-22-The-little-prince %})
+
+[![]({{site.url}}/assets/images/LinkImage/White-night.jpg "白夜行")]({% post_url 2019-05-26-White-night %})
+
+[![]({{site.url}}/assets/images/LinkImage/Briefe-n-dinen-jungen-Dichter.jpg "给一个青年诗人的十封信")]({% post_url 2019-05-29-Briefe-n-dinen-jungen-Dichter %})
