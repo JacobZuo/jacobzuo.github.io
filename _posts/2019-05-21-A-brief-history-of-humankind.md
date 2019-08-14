@@ -87,3 +87,11 @@ article_header:
 
 前几天我在知乎上看到一个问题，大致是，“如果把人类现有的核弹头都聚集在一起，可以把整个地球炸成一个小行星带均匀的分布在轨道上吗？”问题的答案显然是否定的，仅仅存在了几万年人类并没有什么能力和这个已经在宇宙中存在了46亿年的星球相抗衡。但这个问题下有一个很精彩的回答：“恭喜人类成为了这个星球上（也许是这个宇宙中）第一个获得自我毁灭能力的生物。”就像作者在后记中所说的，拥有神的能力，但是不负神的责任，甚至连想要什么都不知道，可能是最危险的事情了吧。
 
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-future.jpg "人类大命运")]({% post_url 2019-05-28-A-brief-history-of-future %})
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-1.jpg "美德的起源（上）")]({% post_url 2019-05-24-Origins-of-virtue-1 %})
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-2.jpg "美德的起源（上）")]({% post_url 2019-05-25-Origins-of-virtue-2 %})
