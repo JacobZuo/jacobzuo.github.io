@@ -83,3 +83,12 @@ article_header:
 3. 《社会性动物》，阿伦森（Elliot Aronson） 
 4. 《人类大历史》，[以色列] 尤瓦尔·赫拉利  
 5. 《美德的起源》，[英] 马特·里德利
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-future.jpg "人类大命运")]({% post_url 2019-05-28-A-brief-history-of-future %})
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-1.jpg "美德的起源（上）")]({% post_url 2019-05-24-Origins-of-virtue-1 %})
