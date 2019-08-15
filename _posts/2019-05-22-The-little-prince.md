@@ -88,3 +88,11 @@ article_header:
 > 小王子又加了一句：  
 > “真正重要的东西用眼睛是看不到的，应该用心去寻找。”  
 
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Why-Grow-Up.jpg "为什么长大？")]({% post_url 2019-05-18-Why-Grow-Up %})
+
+[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "被讨厌的勇气")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
+
+[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为了活下去")]({% post_url 2019-05-27-In-order-to-live %})
