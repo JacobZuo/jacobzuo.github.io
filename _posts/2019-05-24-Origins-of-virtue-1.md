@@ -93,3 +93,13 @@ article_header:
 3. 《人类大历史》，尤瓦尔·赫拉利  
 4. 《为什么长大》，苏珊·奈曼  
 5. 《人性论》，大卫·休谟
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-2.jpg "美德的起源（上）")]({% post_url 2019-05-25-Origins-of-virtue-2 %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-future.jpg "人类大命运")]({% post_url 2019-05-28-A-brief-history-of-future %})
+
