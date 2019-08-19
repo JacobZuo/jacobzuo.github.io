@@ -92,6 +92,13 @@ article_header:
 
 如果说悲剧源于社会，那么十九年间邪恶的种子结出的果实着实让人惊艳。**小说的设定不仅仅源于两个受伤的幼小心灵在黑暗中相互取暖照亮，也源自日本社会从萧条到繁荣的发展中挣扎着的失败和欲望；不仅仅有人性和智慧，也有错中复杂的社会变迁和技术发展而带来的洗牌。**东野圭吾在故事中埋伏的和现实世界接轨的地方凸显了日本现代经济的发展，就像是历史的车轮碾过，结束就回到了开始。
 
+---
+**你可能也喜欢：**
 
+[![]({{site.url}}/assets/images/LinkImage/The-little-prince.jpg "小王子")]({% post_url 2019-05-22-The-little-prince %})
+
+[![]({{site.url}}/assets/images/LinkImage/In-order-to-live.jpg "为了活下去")]({% post_url 2019-05-27-In-order-to-live %})
+
+[![]({{site.url}}/assets/images/LinkImage/Briefe-n-dinen-jungen-Dichter.jpg "给一个青年诗人的十封信")]({% post_url 2019-05-29-Briefe-n-dinen-jungen-Dichter %})
 
 

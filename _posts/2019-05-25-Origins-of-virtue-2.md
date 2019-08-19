@@ -65,6 +65,9 @@ article_header:
 3. 《细节》，[英] 史蒂夫·马丁 / [美] 诺厄·戈尔茨坦 / [美] 罗伯特·西奥迪尼
 4. 《为什么长大》，苏珊·奈曼
 
+---
+**你可能也喜欢：**
+
 [![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-1.jpg "美德的起源（上）")]({% post_url 2019-05-24-Origins-of-virtue-1 %})
 
 [![]({{site.url}}/assets/images/LinkImage/The-small-big.jpg "细节")]({% post_url 2019-05-23-The-small-big %})
