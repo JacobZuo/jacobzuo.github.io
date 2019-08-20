@@ -69,3 +69,11 @@ article_header:
 
 > **“只要想到努力就有收获，我便充满了干劲。我必须立刻开始往目标迈进；时间宝贵，不能再浪费了。”**
 
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Why-Grow-Up.jpg "为什么长大？")]({% post_url 2019-05-18-Why-Grow-Up %})
+
+[![]({{site.url}}/assets/images/LinkImage/Courage-to-be-Disliked.jpg "被讨厌的勇气")]({% post_url 2019-05-19-Courage-to-be-Disliked %})
+
+[![]({{site.url}}/assets/images/LinkImage/The-little-prince.jpg "小王子")]({% post_url 2019-05-22-The-little-prince %})
