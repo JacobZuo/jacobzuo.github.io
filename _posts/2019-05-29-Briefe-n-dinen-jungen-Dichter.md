@@ -88,3 +88,12 @@ Orchards in Blossom, View of Arles, April 1889, Vincent van Gogh
 图片来源：《北京遇上西雅图2之不二情书》
 
 一般人说，诗需要情感；可是**里尔克说，情感是我们早就已经有的，我们需要的是经验。**他怀着纯洁的爱观察宇宙间的万物，就像是罗丹的雕塑，里尔克的诗里已经不见诗人诉说他自己，只见到万物拥有它们各自的灵魂和姿态。**里克尔的一生在寂寞的旅行中孤独的求索，但他也无时不和他的朋友们讲着最亲切的话——不仅仅是朋友，还有青年，失业工人，试笔的作家——他聆听他们无处申述的痛苦，并诚恳的给予答复。希望这几封指导青年诗人的信，也能成为现代人寂寞彷徨时的伴侣。**
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/A-poetry-book.jpg "诗的时光书")]({% post_url 2019-05-20-A-poetry-book %})
+
+[![]({{site.url}}/assets/images/LinkImage/The-little-prince.jpg "小王子")]({% post_url 2019-05-22-The-little-prince %})
+
+[![]({{site.url}}/assets/images/LinkImage/White-night.jpg "白夜行")]({% post_url 2019-05-26-White-night %})
