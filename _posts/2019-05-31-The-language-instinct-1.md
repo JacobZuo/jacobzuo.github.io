@@ -60,3 +60,12 @@ article_header:
 人类所掌握的构建词汇和句子的框架规则是线性的字符串机器无法比拟的，正如乔伊斯·基尔默（Joyce Kilmer）的一句诗：“只有上帝才能造出一棵树。”使用短语和嵌套的形式构建复杂的语言语法并不是后天习得的，而是**人类基于心理词典和心理语法的语言本能。**
 
 **正是这样的语言本能，让人类之间的思想交流有了外在的依托。不得不说，心理语言已经足够个体思考所需，但外在的交流语言，才是人类成为这个星球上最强大物种的基础，语言带来的思维上的交流创造了人类文明。那么作为天然的语言使用者，人类为何拥有数千种不同的语言？儿童是如何学会母语的？我们将在下篇中分享语言学习和进化的奥秘。**
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/The-language-instinct-2.jpg "语言本能（下）")]({% post_url 2019-06-01-The-language-instinct-2 %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-1.jpg "美德的起源（上）")]({% post_url 2019-05-24-Origins-of-virtue-1 %})
