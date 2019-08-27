@@ -68,3 +68,13 @@ article_header:
 如果说语言是人类的一种可遗传的本能，那么人类对语言的好奇则远远超过对于其他本能的讨论。直立行走解放双手也是人类获得巨大成就的重要进化结果，但几乎不会有人问人类是如何实现直立行走的。那么对语言的好奇心究竟来源于何处呢？原因很简单，语言是人类思维和外界交流的途径，**人们对语言更好奇，是因为人们更想了解人类的本性。**
 
 > 复杂语言普遍存在于每个人、每种文化之中，而且它们都拥有一套相同的心理设计。一旦意识到这一点，所有语言就不再陌生，即便一字一句都听不懂。我们能够透过表面的音韵看到底层的结构，从而真切地体会到我们都拥有相同的心智。
+
+
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/The-language-instinct-1.jpg "语言本能（上）")]({% post_url 2019-06-01-The-language-instinct-1 %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
+
+[![]({{site.url}}/assets/images/LinkImage/Origins-of-virtue-1.jpg "美德的起源（上）")]({% post_url 2019-05-24-Origins-of-virtue-1 %})
