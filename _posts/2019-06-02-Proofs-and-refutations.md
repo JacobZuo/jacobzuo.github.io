@@ -107,3 +107,12 @@ article_header:
 
 这本书旨在表明，**数学发现并不是在基本公理上简单的逻辑推理演绎，而是在证明和反驳的过程中不断修正和完善的体系。**哥德尔不完备定理指出，**一个自洽的数学系统是不完备的**，我们总是需要在讨论中增加更多的假设来修正我们的猜想。因此，**即使如数学这样建立在公理体系上的逻辑学，也不是完全确定的，仍然有极大的未知等待探索。**
 
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/The-small-big.jpg "细节")]({% post_url 2019-05-23-The-small-big %})
+
+[![]({{site.url}}/assets/images/LinkImage/Turning-uncertainty-into-possibility.jpg "机会")]({% post_url 2019-05-30-Turning-uncertainty-into-possibility %})
+
+[![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
+
