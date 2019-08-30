@@ -73,7 +73,7 @@ article_header:
 ---
 **你可能也喜欢：**
 
-[![]({{site.url}}/assets/images/LinkImage/The-language-instinct-1.jpg "语言本能（上）")]({% post_url 2019-06-01-The-language-instinct-1 %})
+[![]({{site.url}}/assets/images/LinkImage/The-language-instinct-1.jpg "语言本能（上）")]({% post_url 2019-05-31-The-language-instinct-1 %})
 
 [![]({{site.url}}/assets/images/LinkImage/A-brief-history-of-humankind.jpg "人类大历史")]({% post_url 2019-05-21-A-brief-history-of-humankind %})
 
