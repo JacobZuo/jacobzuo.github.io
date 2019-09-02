@@ -33,7 +33,7 @@ Supervisor: Prof. XIONG, Xiaomin
 ## Research and Professional Experience:
 
 **08/2014 -- present**  
-Collective antibiotic tolerance in bacterial swarming.
+Collective antibiotic tolerance in bacterial swarming.  
 Single cell motion pattern and self-organization in bacterial swarming.
 
 **10/2012 -- 12/2013**  
