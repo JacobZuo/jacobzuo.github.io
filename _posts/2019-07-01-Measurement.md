@@ -150,7 +150,7 @@ article_header:
 
 我们已经知道对数函数简介的微分形式 $d ln(x)=dx/x$，那么其对应的指数函数 $e^x$ 的微分形式又是怎样的呢？如果我们写成 $y=e^x$, 我们有 $dx=dy/y$，因此 $dy=ydx$。我们发现 $e^x$ 的微分形式就是 $e^x dx$。也就是说这个函数在每一点的斜率都和函数值本身相等。自然对数和指数定义弥补了古典指数和对数概念的不足，让指数和对数成为了有连续性定义的基础函数。其奇特性质也成为高等数学教材中最重要的范例。
 
------
+---
 
 终于看完了
 
@@ -158,7 +158,14 @@ article_header:
 
 我想就到这里结束吧，这本名叫《度量》的书，书写了一些基础的微积分知识，从度量长度、面积和体积的角度出发，避开的复杂的概念和严格的证明，用大量巧妙和生动的例子描写了古典微积分和现代分析学的要领。**数学是一门关于想象世界的学科，其美感不仅仅是巧妙变换的数字或者图形，而是从图形到数字的完美融合。**
 
------
+---
+**你可能也喜欢：**
+
+[![]({{site.url}}/assets/images/LinkImage/Horology.jpg "加勒比海盗中的计时学：大航海时代的定位秘笈")]({% post_url 2019-06-03-Horology %})
+
+[![]({{site.url}}/assets/images/LinkImage/Turning-uncertainty-into-possibility.jpg "机会")]({% post_url 2019-05-30-Turning-uncertainty-into-possibility %})
+
+[![]({{site.url}}/assets/images/LinkImage/Proofs-and-refutations.jpg "证明与反驳：数学发现的逻辑")]({% post_url 2019-06-02-Proofs-and-refutations %})
 
 
 
