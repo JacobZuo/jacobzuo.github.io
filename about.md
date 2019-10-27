@@ -38,11 +38,11 @@ Single cell motion pattern and self-organization in bacterial swarming.
 
 **10/2012 -- 12/2013**  
 Development of a mechanical spectrometer based on the AFM which the AFM cantilever can be driven by electromagnetic force and work under active mode.  
-Surface wave on the air-water interface by out homemade mechanical spectrometer based on AFM.
+Investigate surface wave at air-water interface with custom build mechanical spectrometer based on AFM.
 Microstructure and its evolution of electro-rheological fluid by mechanical spectrum.
 
 **10/2009 -- 09/2012**  
-Energy dissipation of shear wave in the solid-liquid interface.  
+Energy dissipation of shear wave at solid-liquid interface.  
 Development of a viscoelastic spectrometer of soft matter based on the torsion pendulum.  
 Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detecting the higher harmonic of the sample strain under an alternating stress.
 
