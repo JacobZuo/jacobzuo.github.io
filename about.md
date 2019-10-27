@@ -51,7 +51,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 **[1]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.
 
-**[2]** Chen, L., **Zuo, W.**, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881.
+**[2]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors)
 
 **[3]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
 
@@ -61,10 +61,10 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Conference presentations:
 
-**Presentation**  
+**Poster**  
 Wenlong Zuo. "Cell motility and antibiotic tolerance of bacterial swarms." APS March Meeting 2016.
 
-**Poster**  
+**Presentation**  
 Wenlong Zuo, and Yilin Wu. "Collective stress tolerance during bacterial swarming." APS March Meeting 2018.
 
 
