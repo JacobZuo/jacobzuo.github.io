@@ -6,15 +6,20 @@ comments: false
 
 ## Contact
 
-Address: LG207/209, Run Run Shaw Science Building, CUHK, Hong Kong SAR, P. R. China
+Address: Floor 14, Block F, Shenzhen Institute of Advanced Technology, Shenzhen, Guangdong, P. R. China
 
-Phone: 00852-39436394
+Phone: 0086-136324****5
 
 E-mail: zwlong ```at``` live.com
 
+## Experience
+
+**Postdoctoral Researcher** 
+Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2019 -- present
+
 ## Education:
 
-**PhD student**, Department of Physics, The Chinese University of Hong Kong.  2014 -- present  
+**PhD in Material Science and Engineering**, Department of Physics, The Chinese University of Hong Kong.  2014 -- 2019  
 Supervisor: Prof. WU, Yilin
 
 **MPhil in Condensed Matter Physics**, School of Physics and Engineering, Sun Yat-sen University. 2010 -- 2013  
@@ -32,7 +37,7 @@ Supervisor: Prof. XIONG, Xiaomin
 
 ## Research and Professional Experience:
 
-**08/2014 -- present**  
+**08/2014 -- 11/2019**  
 Collective antibiotic tolerance in bacterial swarming.  
 Single cell motion pattern and self-organization in bacterial swarming.
 
@@ -49,15 +54,17 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.
+**[1]** Wenlong Zuo & Yilin Wu (2020) Dynamic motility selection drives population segregation in a bacterial swarm. PNAS, in press.
 
-**[2]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors)
+**[2]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.
 
-**[3]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
+**[3]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors)
 
-**[4]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+**[4]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
 
-**[5]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
+**[5]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+
+**[6]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
 ## Conference presentations:
 
