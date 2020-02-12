@@ -8,13 +8,13 @@ comments: false
 
 Address: Floor 14, Block F, Shenzhen Institute of Advanced Technology, Shenzhen, Guangdong, P. R. China
 
-Phone: 0086-136324****5
+Phone: 0086-136324\*\*\*\*5
 
 E-mail: zwlong ```at``` live.com
 
 ## Experience
 
-**Postdoctoral Researcher** 
+**Postdoctoral Researcher**, 
 Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2019 -- present
 
 ## Education:
