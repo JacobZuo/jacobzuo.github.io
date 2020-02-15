@@ -54,7 +54,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Wenlong Zuo & Yilin Wu (2020) Dynamic motility selection drives population segregation in a bacterial swarm. PNAS, in press.
+**[1]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.
 
 **[2]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.
 
