@@ -8,7 +8,7 @@ header:
 article_header:
   type: overlay
   theme: light
-  background_color: '#281906'
+  background_color: '#336699'
   background_image:
     src: cover.jpg
 ---
