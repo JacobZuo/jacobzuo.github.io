@@ -56,8 +56,6 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 **[1]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, Junyu Chen, Zepeng Qu, Fan Jin, Lei Dai. Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nature Communications. Accepted.
 
-**Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]]
-
 **[2]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
 
 **[3]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.[[Link]](https://iopscience.iop.org/article/10.1088/0256-307X/31/7/076801/meta)
