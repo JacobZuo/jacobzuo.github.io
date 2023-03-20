@@ -54,7 +54,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, Junyu Chen, Zepeng Qu, Fan Jin, Lei Dai. Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nature Communications. Accepted.
+**[1]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun 14, 1477. [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
 
 **[2]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
 
