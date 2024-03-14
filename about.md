@@ -54,11 +54,11 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun. Accepted. [[Link]](https://doi.org/10.1101/2023.04.19.537502).
+**[1]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun, Accepted. [[Link]](https://doi.org/10.1101/2023.04.19.537502).
 
-**[2]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry 14, 134. [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
+**[2]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry, 14, 134. [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
 
-**[3]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun 14, 1477. [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
+**[3]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun, 14, 1477. [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
 
 **[4]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
 
@@ -77,8 +77,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 **Presentation**  
 
 **Poster**  
-Wenlong Zuo. "Spatial profiling of microbial communities by sequential FISH with error-robust encoding." [Q-Bio 2023](https://www.siat.ac.cn/xshd2016/202308/t20230808_6857720.html). **Best Poster Award**.
-
+Wenlong Zuo. "Spatial profiling of microbial communities by sequential FISH with error-robust encoding." [Q-Bio 2023](https://www.siat.ac.cn/xshd2016/202308/t20230808_6857720.html) Best Poster Award.
 
 **Presentation**  
 Wenlong Zuo. ["Spatial profiling of microbial communities by sequential FISH with error-robust encoding."](https://www.mr-gut.cn/chinagut/report/966) CHINA GUT 2021.
@@ -99,7 +98,7 @@ Teaching assistant of course 'Instrumentation', 2015 -- 2017;
 ## Awards and Honors:
 **Best Poster Award** at the 17th annual Q-Bio 2023 Conference
 
-TA award 2016 -- 2017
+**TA award**, Department of Physics, the Chinese University of Hong Kong, 2016 -- 2017
 
 ## Others
 Github Page: [Jacob Press on Github](https://jacobzuo.github.io "Jacob Press on Github").  
