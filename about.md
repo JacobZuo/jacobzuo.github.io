@@ -54,7 +54,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2023). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun Accepted. [[Link]](https://doi.org/10.1101/2023.04.19.537502).
+**[1]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun. Accepted. [[Link]](https://doi.org/10.1101/2023.04.19.537502).
 
 **[2]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry 14, 134. [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
 
