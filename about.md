@@ -74,8 +74,6 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Conference presentations:
 
-**Presentation**  
-
 **Poster**  
 Wenlong Zuo. "Spatial profiling of microbial communities by sequential FISH with error-robust encoding." [Q-Bio 2023](https://www.siat.ac.cn/xshd2016/202308/t20230808_6857720.html) Best Poster Award.
 
@@ -87,8 +85,6 @@ Wenlong Zuo, and Yilin Wu. ["Collective stress tolerance during bacterial swarmi
 
 **Poster**  
 Wenlong Zuo. ["Cell motility and antibiotic tolerance of bacterial swarms."](https://meetings.aps.org/Meeting/MAR21/Session/X14.12) APS March Meeting 2016.
-
-
 
 
 ## Teaching:
