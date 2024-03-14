@@ -97,6 +97,7 @@ Wenlong Zuo. ["Cell motility and antibiotic tolerance of bacterial swarms."](htt
 Teaching assistant of course 'Instrumentation', 2015 -- 2017;
 
 ## Awards and Honors:
+**Best Poster Award** at the 17th annual Q-Bio 2023 Conference
 
 TA award 2016 -- 2017
 
