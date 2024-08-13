@@ -6,7 +6,7 @@ comments: false
 
 ## Contact
 
-Address: Floor 14, Block F, Shenzhen Institute of Advanced Technology, Shenzhen, Guangdong, P. R. China
+Address: Floor 15, Block A, No. 108, Yongchuang Road, Guangming District, Shenzhen, Guangdong, P. R. China
 
 Phone: 0086-136324\****5
 
@@ -14,8 +14,12 @@ E-mail: zwlong ```at``` live.com; wl.zuo ```at``` siat.ac.cn
 
 ## Experience
 
+**Research Assistant Professor**, 
+Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2022 -- Present
+
+
 **Postdoctoral Researcher**, 
-Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2019 -- present
+Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2019 -- 2022
 
 ## Education:
 
@@ -54,23 +58,25 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications:
 
-**[1]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun, 15, 2406. [[Link]](https://doi.org/10.1038/s41467-024-46766-y).
+**[1]** Junbo Tang\*, **Wenlong Zuo**\*, Lizhen Guo, Zhihao Han, Chengfeng Yang, Benfeng Han, Lei Dai\#, Xue Zhang\#, Xin Zhou\#. (2024). Synergistic pectin deconstruction is a prerequisite for mutualistic interactions between honeybee gut bacteria. Nat Commun 15, 6937. (\* co-first authors). [[Link]](https://doi.org/10.1038/s41467-024-51365-y).
 
-**[2]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry, 14, 134. [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
+**[2]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun, 15, 2406. [[Link]](https://doi.org/10.1038/s41467-024-46766-y).
 
-**[3]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun, 14, 1477. [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
+**[3]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry, 14, 134. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
 
-**[4]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
+**[4]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun, 14, 1477. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
 
-**[5]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.[[Link]](https://iopscience.iop.org/article/10.1088/0256-307X/31/7/076801/meta)
+**[5]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
 
-**[6]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors). [[Link]](https://pubs.acs.org/doi/abs/10.1021/jp509191b)
+**[6]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.[[Link]](https://iopscience.iop.org/article/10.1088/0256-307X/31/7/076801/meta)
 
-**[7]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
+**[7]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors). [[Link]](https://pubs.acs.org/doi/abs/10.1021/jp509191b)
 
-**[8]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+**[8]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
 
-**[9]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
+**[9]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+
+**[10]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
 ## Conference presentations:
 
