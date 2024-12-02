@@ -31,24 +31,19 @@ Supervisor: Prof. XIONG, Xiaomin
 
 **B.S. in Materials Physics**, School of Physics and Engineering, Sun Yat-sen University. 2006 -- 2010
 
-## Research interest:
+## Research interest: 
 
-* Emergent Phenomena in Complex Ecosystems
-Investigating how interactions within microbial communities give rise to emergent properties, such as stability, resilience, and adaptability, under varying environmental conditions.
+* **Emergent Phenomena in Complex Ecosystems**: Investigating how interactions within microbial communities give rise to emergent properties, such as stability, resilience, and adaptability, under varying environmental conditions.
 
-* Spatial Assembly of Microbial Communities
-Exploring the spatial organization and temporal dynamics of microbial communities, focusing on how spatial structuring influences microbial interactions, community function, and ecological processes.
+* **Spatial Assembly of Microbial Communities**: Exploring the spatial organization and temporal dynamics of microbial communities, focusing on how spatial structuring influences microbial interactions, community function, and ecological processes.
 
-* Intraspecies and Interspecies Interactions
-Unraveling the mechanisms of competition and cooperation within and between species, highlighting their roles in shaping community composition, ecosystem function, and evolutionary trajectories.
+* **Intraspecies and Interspecies Interactions**: Unraveling the mechanisms of competition and cooperation within and between species, highlighting their roles in shaping community composition, ecosystem function, and evolutionary trajectories.
 
-* Communication and Signaling in Microbial Systems
-Deciphering intracellular and intercellular communication networks, including quorum sensing, signaling pathways, and metabolite exchanges, to understand coordination and decision-making in microbial communities.
+* **Communication and Signaling in Microbial Systems**: Deciphering intracellular and intercellular communication networks, including quorum sensing, signaling pathways, and metabolite exchanges, to understand coordination and decision-making in microbial communities.
 
-* Adaptation and Evolution Under Environmental Stress
-Investigating how microorganisms adapt and evolve in response to environmental stressors, with an emphasis on the genetic, metabolic, and ecological mechanisms driving these changes.
+* **Adaptation and Evolution Under Environmental Stress**: Investigating how microorganisms adapt and evolve in response to environmental stressors, with an emphasis on the genetic, metabolic, and ecological mechanisms driving these changes.
 
-## Research and Professional Experience:
+## Research and Professional Experience: 
 
 **08/2014 -- 11/2019**  
 Collective antibiotic tolerance in bacterial swarming.  
