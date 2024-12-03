@@ -6,11 +6,11 @@ header:
       zh-Hant:  博客
     url:        /blog/index.html
   - titles:
-      en:       Project
-      zh:       项目
-      zh-Hans:  项目
-      zh-Hant:  项目
-    url:        /project.html
+      en:       Gallery
+      zh:       图库
+      zh-Hans:  图库
+      zh-Hant:  图库
+    url:        /Gallery.html
   - titles:
       en:       About
       zh:       关于
