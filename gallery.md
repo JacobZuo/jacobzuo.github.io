@@ -8,9 +8,9 @@ articles:
   show_info: true
 ---
 
-## Birds
+## Wildlife
 
-{% include gallery.html folder="/gallery/birds" %}
+{% include gallery.html folder="/gallery/wildlife" %}
 
 ## Landscape
 
