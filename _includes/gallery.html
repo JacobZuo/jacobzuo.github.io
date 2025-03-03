@@ -1,224 +1,216 @@
+<div class="filter-options">
+  <span id="sort-category" class="sort-btn">Category</span> |
+  <span id="sort-date" class="sort-btn">Date</span>
+</div>
 
-<div class="image-gallery" id="image-gallery-{{ include.folder | split: '/' | last }}">
-  {% assign sorted = site.static_files | sort: 'date' | reverse %}
-  {% for file in sorted %}
-  {% if file.path contains include.folder %}
-  {% if file.extname == '.jpg' %}
-    {% assign filenameparts = file.path | split: "/" %}
-      {% assign filename = filenameparts | last | replace: file.extname,"" %}
-      {% assign filename_parts = filename | split: "_" %}
-      {% assign cleaned_filename = filename_parts | first %}
-        <div class="box">
-          <a href="#" class="image-link" data-image="{{ file.path | relative_url }}">
-            <img src="{{ file.path }}" alt="{{ cleaned_filename }}" title="{{ cleaned_filename }}" class="img-gallery" />
-          </a>
-          <div class="image-title">{{ cleaned_filename }}</div>
+<div class="image-gallery" id="image-gallery">
+  <!-- 分类显示区域 -->
+  <div id="category-gallery" class="gallery-container">
+    {% assign categorized_images = site.data.gallery | group_by: "category" %}
+    {% for category in categorized_images %}
+      <div class="category-group">
+        <h3>{{ category.name }}</h3>
+        <div class="images">
+          {% for image in category.items %}
+            <div class="box">
+              <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
+                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
+              </a>
+              <div class="image-title">{{ image.name }}</div>
+            </div>
+          {% endfor %}
         </div>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- 按日期排序显示区域 -->
+  <div id="date-gallery" class="gallery-container" style="display:none;">
+    {% assign sorted_by_date = site.data.gallery | sort: "date" | reverse %}
+    
+    <!-- 按日期分组显示 -->
+    {% assign grouped_by_date = sorted_by_date | group_by: "date" %}
+    {% for group in grouped_by_date %}
+      <div class="date-group">
+        <h3>{{ group.name }}</h3>
+        <div class="images">
+          {% for image in group.items %}
+            <div class="box">
+              <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
+                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
+              </a>
+              <div class="image-title">{{ image.name }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Overlay for large image -->
+<div id="image-overlay" class="overlay" style="display:none;">
+  <span id="close-overlay" class="close-btn">×</span>
+  <img id="overlay-image" src="" alt="">
+  <div id="overlay-description" class="overlay-description"></div>
 </div>
 
 <style>
-/*! div style */
-.image-gallery {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-  justify-content: center;
-  padding: 4px;
-}
+  .filter-options {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
 
-.box {
-    flex-basis: 25%;
-    width: 100%;
+  .sort-btn {
+    cursor: pointer;
+    font-weight: bold;
     padding: 10px;
-    margin: 2px;
-}
+  }
 
-.img-gallery {
-width: 100%;
-height: 200px;
-object-fit: cover;
-transform: scale(1);
-transition: all 0.3s ease-in-out;
-&:hover {
-  transform: scale(1.05);
-}
-}
+  .sort-btn:hover {
+  color: #0072c5;
+  } 
 
-.image-title {
-  text-align: center;  /* Center the title */
-  font-size: 14px;     /* Set the font size */
-  margin-top: 8px;     /* Add some space above the title */
-  color: #333;         /* Set a text color (you can change this) */
-}
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
 
-/* Style for the overlay */
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  cursor: pointer; /* Make the whole overlay clickable */
-}
+  .category-group, .date-group {
+    width: 100%;
+    margin: 0px 0;
+  }
 
-.overlay img {
-  max-width: 90%;
-  max-height: 90%;
-  object-fit: contain;
-  margin: 20px;
-  cursor: pointer;  /* Add pointer cursor for clickable effect */
-}
+  .category-group h3, .date-group h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 10px;
+  }
 
-/* Navigation Arrows */
-.overlay .nav-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 40px;
-  color: white;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 10000;
-}
+  .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
 
-.overlay .nav-arrow.prev {
-  left: 10px;  /* Position the left arrow */
-}
+  .box {
+    text-align: center;
+  }
 
-.overlay .nav-arrow.next {
-  right: 10px;  /* Position the right arrow */
-}
+  .img-gallery {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
 
-.overlay-title {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  padding: 5px 10px;
-  border-radius: 5px;
-}
+  .image-title {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+
+  /* Overlay Styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+  }
+
+  .overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .overlay-description {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;                          /* 将描述居中 */
+    transform: translateX(-50%);         /* 让描述完全居中 */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明背景 */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;               /* 根据内容自适应宽度 */
+    max-width: 80%;                      /* 设置最大宽度，防止过长的文本撑开背景 */
+    box-sizing: border-box;              /* 确保 padding 计算在内 */
+    word-wrap: break-word;               /* 换行，防止文本溢出 */
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .close-btn:hover {
+    color: red;
+  }
 </style>
+
 <script>
-  function createGalleryOverlay(galleryId) {
-    let imageList = [];
-    let currentIndex = -1;
+  document.addEventListener("DOMContentLoaded", function () {
+    const sortCategory = document.getElementById("sort-category");
+    const sortDate = document.getElementById("sort-date");
 
-    // Create overlay elements
-    const overlay = document.createElement('div');
-    overlay.classList.add('overlay');
+    const categoryGallery = document.getElementById("category-gallery");
+    const dateGallery = document.getElementById("date-gallery");
 
-    const closeButton = document.createElement('button');
-    closeButton.classList.add('close-btn');
-    closeButton.innerHTML = '×';
-
-    const prevArrow = document.createElement('button');
-    prevArrow.classList.add('nav-arrow', 'prev');
-    prevArrow.innerHTML = '<';
-
-    const nextArrow = document.createElement('button');
-    nextArrow.classList.add('nav-arrow', 'next');
-    nextArrow.innerHTML = '>';
-
-    overlay.appendChild(closeButton);
-    overlay.appendChild(prevArrow);
-    overlay.appendChild(nextArrow);
-
-    const overlayImage = document.createElement('img');
-    overlay.appendChild(overlayImage);
-
-    const overlayTitle = document.createElement('div');
-    overlayTitle.classList.add('overlay-title');
-    overlay.appendChild(overlayTitle);
-
-    document.body.appendChild(overlay);
-
-    // Select the specific gallery based on its unique ID
-    const imageLinks = document.querySelectorAll(`#${galleryId} .image-link`);
-
-    imageLinks.forEach((link, index) => {
-      const imageUrl = link.getAttribute('data-image');
-      const filename = link.querySelector('img').getAttribute('alt');
-      imageList.push({ url: imageUrl, title: filename, index: index });
+    // Sort by Category
+    sortCategory.addEventListener("click", function () {
+      categoryGallery.style.display = "block";
+      dateGallery.style.display = "none";
     });
 
-    function showOverlay(imageUrl, filename, index) {
-      overlayImage.src = imageUrl;
-      overlayTitle.textContent = filename;
-      currentIndex = index;
-      overlay.style.display = 'flex';
-    }
+    // Sort by Date
+    sortDate.addEventListener("click", function () {
+      categoryGallery.style.display = "none";
+      dateGallery.style.display = "block";
+    });
 
-    function nextImage() {
-      if (currentIndex < imageList.length - 1) {
-        currentIndex++;
-      } else {
-        currentIndex = 0;
-      }
-      const nextImageUrl = imageList[currentIndex].url;
-      const nextFilename = imageList[currentIndex].title;
-      overlayImage.src = nextImageUrl;
-      overlayTitle.textContent = nextFilename;
-    }
+    // Display overlay when image is clicked
+    const imageLinks = document.querySelectorAll('.image-link');
+    const overlay = document.getElementById('image-overlay');
+    const overlayImage = document.getElementById('overlay-image');
+    const overlayDescription = document.getElementById('overlay-description');
+    const closeOverlay = document.getElementById('close-overlay');
 
-    function prevImage() {
-      if (currentIndex > 0) {
-        currentIndex--;
-      } else {
-        currentIndex = imageList.length - 1;
-      }
-      const prevImageUrl = imageList[currentIndex].url;
-      const prevFilename = imageList[currentIndex].title;
-      overlayImage.src = prevImageUrl;
-      overlayTitle.textContent = prevFilename;
-    }
-
-    nextArrow.addEventListener('click', nextImage);
-    prevArrow.addEventListener('click', prevImage);
-
-    imageLinks.forEach((link, index) => {
-      link.addEventListener('click', function(event) {
+    imageLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
         event.preventDefault();
         const imageUrl = link.getAttribute('data-image');
-        const filename = link.querySelector('img').getAttribute('alt');
-        showOverlay(imageUrl, filename, index);
+        const description = link.getAttribute('data-description');
+
+        overlayImage.src = imageUrl;
+        overlayDescription.textContent = description;
+        overlay.style.display = 'flex';
       });
     });
 
-    overlayImage.addEventListener('click', function() {
+    // Close overlay when close button or overlay background is clicked
+    closeOverlay.addEventListener('click', function () {
       overlay.style.display = 'none';
     });
 
-    closeButton.addEventListener('click', function() {
-      overlay.style.display = 'none';
-    });
-
-    overlay.addEventListener('click', function(event) {
+    overlay.addEventListener('click', function (event) {
       if (event.target === overlay) {
         overlay.style.display = 'none';
       }
-    });
-  }
-
-  // Initialize overlay for each gallery
-  document.addEventListener('DOMContentLoaded', function() {
-    const galleries = document.querySelectorAll('.image-gallery');
-
-    galleries.forEach((gallery) => {
-      const galleryId = gallery.id;
-      createGalleryOverlay(galleryId);
     });
   });
 </script>
