@@ -13,6 +13,7 @@ Phone: 0086-136324\****5
 E-mail: zwlong ```at``` live.com; wl.zuo ```at``` siat.ac.cn
 
 ## Experience
+
 **Associate Professor**
 Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2025 -- Present
 
@@ -24,7 +25,7 @@ Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2022 --
 **Postdoctoral Researcher**, 
 Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2019 -- 2022
 
-## Education:
+## Education
 
 **PhD in Material Science and Engineering**, Department of Physics, The Chinese University of Hong Kong.  2014 -- 2019  
 Supervisor: Prof. WU, Yilin
@@ -34,7 +35,7 @@ Supervisor: Prof. XIONG, Xiaomin
 
 **B.S. in Materials Physics**, School of Physics and Engineering, Sun Yat-sen University. 2006 -- 2010
 
-## Research interest: 
+## Research interest
 
 * **Emergent Phenomena in Complex Ecosystems**: Investigating how interactions within microbial communities give rise to emergent properties, such as stability, resilience, and adaptability, under varying environmental conditions.
 
@@ -46,7 +47,7 @@ Supervisor: Prof. XIONG, Xiaomin
 
 * **Adaptation and Evolution Under Environmental Stress**: Investigating how microorganisms adapt and evolve in response to environmental stressors, with an emphasis on the genetic, metabolic, and ecological mechanisms driving these changes.
 
-## Research and Professional Experience: 
+## Research and Professional Experience
 
 **12/2019 -- Now**  
 Spatial Assembly of Microbial Communities: Exploring the spatial organization and temporal dynamics of microbial communities, focusing on how spatial structuring influences microbial interactions, community function, and ecological processes.
@@ -66,7 +67,7 @@ Development of a viscoelastic spectrometer of soft matter based on the torsion p
 Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detecting the higher harmonic of the sample strain under an alternating stress.
 
 
-## Publications:
+## Publications
 
 **[1]** Zepeng Qu\*, Hongbin Liu\*, Ji Yang\*, Linggang Zheng, Jumin Huang, Ziming Wang, Chun Xie, **Wenlong Zuo**, Xiong Xia, Lin Sun, Yifa Zhou, Ying Xie, Jingguang Lu, Yizhun Zhu, Lili Yu, Lihua Liu, Hua Zhou\#,, Lei Dai\#, Elaine Lai-Han Leung\#. (2025) Selective utilization of medicinal polysaccharides by human gut Bacteroides and Parabacteroides species. Nat Commun. Jan 14;16(1):638. [[Link]](https://www.nature.com/articles/s41467-025-55845-7).
 
@@ -92,7 +93,7 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 **[12]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
-## Conference presentations:
+## Conference presentations
 
 **Poster**  
 Wenlong Zuo. "Spatial profiling of microbial communities by sequential FISH with error-robust encoding." [Q-Bio 2023](https://www.siat.ac.cn/xshd2016/202308/t20230808_6857720.html) Best Poster Award.
@@ -107,11 +108,11 @@ Wenlong Zuo, and Yilin Wu. ["Collective stress tolerance during bacterial swarmi
 Wenlong Zuo. ["Cell motility and antibiotic tolerance of bacterial swarms."](https://meetings.aps.org/Meeting/MAR21/Session/X14.12) APS March Meeting 2016.
 
 
-## Teaching:
+## Teaching
 
 Teaching assistant of course 'Instrumentation', 2015 -- 2017;
 
-## Awards and Honors:
+## Awards and Honors
 **Best Poster Award** at the 17th annual Q-Bio 2023 Conference
 
 **TA award**, Department of Physics, the Chinese University of Hong Kong, 2016 -- 2017
