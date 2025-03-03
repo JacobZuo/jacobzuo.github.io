@@ -16,7 +16,6 @@
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
               </a>
-              <div class="image-title">{{ image.name }}</div>
             </div>
           {% endfor %}
         </div>
@@ -39,7 +38,6 @@
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
               </a>
-              <div class="image-title">{{ image.name }}</div>
             </div>
           {% endfor %}
         </div>
@@ -92,7 +90,7 @@
 
   .images {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 10px;
   }
 
@@ -102,7 +100,7 @@
 
   .img-gallery {
     width: 100%;
-    height: 150px;
+    height: 160px;
     object-fit: cover;
   }
 
