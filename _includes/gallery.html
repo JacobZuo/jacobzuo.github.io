@@ -1,5 +1,5 @@
 <div class="filter-options">
-  <span id="sort-category" class="sort-btn">Category</span> |
+  <span id="sort-category" class="sort-btn active">Category</span> |
   <span id="sort-date" class="sort-btn">Date</span>
 </div>
 
@@ -14,7 +14,7 @@
           {% for image in category.items %}
             <div class="box">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
-                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
+                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
               </a>
             </div>
           {% endfor %}
@@ -36,7 +36,7 @@
           {% for image in group.items %}
             <div class="box">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
-                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" />
+                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
               </a>
             </div>
           {% endfor %}
@@ -67,8 +67,13 @@
   }
 
   .sort-btn:hover {
-  color: #0072c5;
-  } 
+    color: #0072c5;
+  }
+
+  /* 选中状态 */
+  .sort-btn.active {
+    color: #0072c5;
+  }
 
   .gallery-container {
     display: flex;
@@ -90,7 +95,7 @@
 
   .images {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
   }
 
@@ -100,13 +105,9 @@
 
   .img-gallery {
     width: 100%;
-    height: 160px;
+    height: 150px;
     object-fit: cover;
-  }
-
-  .image-title {
-    margin-top: 0px;
-    font-size: 14px;
+    border-radius: 3px;
   }
 
   /* Overlay Styles */
@@ -128,23 +129,24 @@
     max-height: 90%;
     object-fit: contain;
     cursor: pointer;
+    transition: transform 0.3s ease;
   }
 
   .overlay-description {
     position: absolute;
     bottom: 50px;
-    left: 50%;                          /* 将描述居中 */
-    transform: translateX(-50%);         /* 让描述完全居中 */
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     font-size: 16px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7); /* 半透明背景 */
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
     border-radius: 5px;
-    display: inline-block;               /* 根据内容自适应宽度 */
-    max-width: 80%;                      /* 设置最大宽度，防止过长的文本撑开背景 */
-    box-sizing: border-box;              /* 确保 padding 计算在内 */
-    word-wrap: break-word;               /* 换行，防止文本溢出 */
+    display: inline-block;
+    max-width: 80%;
+    box-sizing: border-box;
+    word-wrap: break-word;
   }
 
   .close-btn {
@@ -169,19 +171,27 @@
     const categoryGallery = document.getElementById("category-gallery");
     const dateGallery = document.getElementById("date-gallery");
 
-    // Sort by Category
+    // 切换分类排序
     sortCategory.addEventListener("click", function () {
       categoryGallery.style.display = "block";
       dateGallery.style.display = "none";
+
+      // 设置选中状态
+      sortCategory.classList.add("active");
+      sortDate.classList.remove("active");
     });
 
-    // Sort by Date
+    // 切换日期排序
     sortDate.addEventListener("click", function () {
       categoryGallery.style.display = "none";
       dateGallery.style.display = "block";
+
+      // 设置选中状态
+      sortDate.classList.add("active");
+      sortCategory.classList.remove("active");
     });
 
-    // Display overlay when image is clicked
+    // 显示大图 Overlay
     const imageLinks = document.querySelectorAll('.image-link');
     const overlay = document.getElementById('image-overlay');
     const overlayImage = document.getElementById('overlay-image');
@@ -200,7 +210,7 @@
       });
     });
 
-    // Close overlay when close button or overlay background is clicked
+    // 关闭大图 Overlay
     closeOverlay.addEventListener('click', function () {
       overlay.style.display = 'none';
     });
