@@ -134,6 +134,11 @@
     height: 150px;
     object-fit: cover;
     border-radius: 3px;
+    transition: transform 0.3s ease-in-out; /* 平滑过渡 */
+  }
+  .img-gallery:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 1.1 倍 */
+    cursor: pointer;
   }
 
   /* Overlay Styles */
