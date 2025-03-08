@@ -1,5 +1,6 @@
 <div class="filter-options">
-  <span id="sort-category" class="sort-btn active">Category</span> |
+  <span id="sort-category" class="sort-btn active">Category</span>  | 
+  <span id="sort-location" class="sort-btn">Location</span>  | 
   <span id="sort-date" class="sort-btn">Date</span>
 </div>
 
@@ -8,10 +9,12 @@
   <div id="category-gallery" class="gallery-container">
     {% assign categorized_images = site.data.gallery | group_by: "category" %}
     {% for category in categorized_images %}
+      <!-- 按时间倒序排列 -->
+      {% assign sorted_images = category.items | sort: "date" | reverse %}
       <div class="category-group">
         <h3>{{ category.name }}</h3>
         <div class="images">
-          {% for image in category.items %}
+          {% for image in sorted_images %}
             <div class="box">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
@@ -26,14 +29,33 @@
   <!-- 按日期排序显示区域 -->
   <div id="date-gallery" class="gallery-container" style="display:none;">
     {% assign sorted_by_date = site.data.gallery | sort: "date" | reverse %}
-    
-    <!-- 按日期分组显示 -->
     {% assign grouped_by_date = sorted_by_date | group_by: "date" %}
     {% for group in grouped_by_date %}
       <div class="date-group">
         <h3>{{ group.name }}</h3>
         <div class="images">
           {% for image in group.items %}
+            <div class="box">
+              <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
+                <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- 按 Location 排序显示区域 -->
+  <div id="location-gallery" class="gallery-container" style="display:none;">
+    {% assign location_grouped = site.data.gallery | group_by: "location" %}
+    {% for location in location_grouped %}
+      <!-- 让 Location 下的图片也按照时间倒序排列 -->
+      {% assign sorted_location_images = location.items | sort: "date" | reverse %}
+      <div class="location-group">
+        <h3>{{ location.name }}</h3>
+        <div class="images">
+          {% for image in sorted_location_images %}
             <div class="box">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
@@ -64,6 +86,8 @@
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .sort-btn:hover {
@@ -73,6 +97,8 @@
   /* 选中状态 */
   .sort-btn.active {
     color: #0072c5;
+    border-bottom: 4px solid #0072c5;
+    padding-bottom: 5px;
   }
 
   .gallery-container {
@@ -82,12 +108,12 @@
     padding-bottom: 50px;
   }
 
-  .category-group, .date-group {
+  .category-group, .date-group, .location-group {
     width: 100%;
     margin: 0px 0;
   }
 
-  .category-group h3, .date-group h3 {
+  .category-group h3, .date-group h3, .location-group h3 {
     text-align: center;
     font-size: 24px;
     margin: 20px 10px;
@@ -167,28 +193,36 @@
   document.addEventListener("DOMContentLoaded", function () {
     const sortCategory = document.getElementById("sort-category");
     const sortDate = document.getElementById("sort-date");
+    const sortLocation = document.getElementById("sort-location");
 
     const categoryGallery = document.getElementById("category-gallery");
     const dateGallery = document.getElementById("date-gallery");
+    const locationGallery = document.getElementById("location-gallery");
 
-    // 切换分类排序
+    function setActiveButton(activeBtn) {
+      document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove("active"));
+      activeBtn.classList.add("active");
+    }
+
     sortCategory.addEventListener("click", function () {
       categoryGallery.style.display = "block";
       dateGallery.style.display = "none";
-
-      // 设置选中状态
-      sortCategory.classList.add("active");
-      sortDate.classList.remove("active");
+      locationGallery.style.display = "none";
+      setActiveButton(sortCategory);
     });
 
-    // 切换日期排序
     sortDate.addEventListener("click", function () {
       categoryGallery.style.display = "none";
       dateGallery.style.display = "block";
+      locationGallery.style.display = "none";
+      setActiveButton(sortDate);
+    });
 
-      // 设置选中状态
-      sortDate.classList.add("active");
-      sortCategory.classList.remove("active");
+    sortLocation.addEventListener("click", function () {
+      categoryGallery.style.display = "none";
+      dateGallery.style.display = "none";
+      locationGallery.style.display = "block";
+      setActiveButton(sortLocation);
     });
 
     // 显示大图 Overlay
@@ -205,7 +239,7 @@
         const description = link.getAttribute('data-description');
 
         overlayImage.src = imageUrl;
-        overlayDescription.textContent = description;
+        overlayDescription.innerHTML = description;
         overlay.style.display = 'flex';
       });
     });
