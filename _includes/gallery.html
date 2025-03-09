@@ -7,7 +7,8 @@
 <div class="image-gallery" id="image-gallery">
   <!-- 分类显示区域 -->
   <div id="category-gallery" class="gallery-container">
-    {% assign categorized_images = site.data.gallery | group_by: "category" %}
+    {% assign sorted_by_category = site.data.gallery | sort: "category" %}
+    {% assign categorized_images = sorted_by_category | group_by: "category" %}
     {% for category in categorized_images %}
       <!-- 按时间倒序排列 -->
       {% assign sorted_images = category.items | sort: "date" | reverse %}
