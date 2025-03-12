@@ -1,7 +1,20 @@
 <div class="filter-options">
-  <span id="sort-category" class="sort-btn active">Category</span>  | 
-  <span id="sort-location" class="sort-btn">Location</span>  | 
-  <span id="sort-date" class="sort-btn">Date</span>
+  <!-- 桌面端分类按钮 -->
+  <span id="sort-category" class="sort-btn active desktop-only">Category</span>  
+  <span class="desktop-only"> | </span>
+  <span id="sort-location" class="sort-btn desktop-only">Location</span>  
+  <span class="desktop-only"> | </span>
+  <span id="sort-date" class="sort-btn desktop-only">Date</span>
+
+  <!-- 移动端汉堡菜单按钮 -->
+  <button id="mobile-menu-btn" class="mobile-only">≡</button>
+
+  <!-- 移动端菜单 -->
+  <div id="mobile-menu" class="mobile-menu mobile-only">
+    <button class="mobile-sort-btn mobile-only" data-sort="category">Category</button>
+    <button class="mobile-sort-btn mobile-only" data-sort="location">Location</button>
+    <button class="mobile-sort-btn mobile-only" data-sort="date">Date</button>
+  </div>
 </div>
 
 <div class="image-gallery" id="image-gallery">
@@ -78,11 +91,63 @@
 
 <style>
   .filter-options {
-    text-align: center;
-    font-size: 28px;
+    text-align: right;
+    font-size: 24px;
     margin-bottom: 0px;
   }
+  
+  /* 移动端 & 桌面端的可见性控制 */
+  .desktop-only {
+    display: inline-block; /* 仅桌面端可见 */
+  }
+  .mobile-only {
+    display: none; /* 仅移动端可见 */
+  }
 
+  @media (max-width: 768px) {
+    .desktop-only {
+      display: none; /* 移动端隐藏桌面按钮 */
+    }
+
+    .mobile-only {
+      display: inline-block; /* 移动端显示汉堡菜单 */
+      font-size: 32px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* 移动端菜单样式 */
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      right: 0px;
+      transform: translateX(-50%);
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      text-align: center;
+      
+    }
+
+    .mobile-menu button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: none;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .mobile-menu button:hover {
+      color: #0072c5;
+    }
+  }
   .sort-btn {
     cursor: pointer;
     font-weight: bold;
@@ -205,9 +270,21 @@
     const dateGallery = document.getElementById("date-gallery");
     const locationGallery = document.getElementById("location-gallery");
 
+
+    const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const sortButtons = document.querySelectorAll(".mobile-sort-btn");
+
     function setActiveButton(activeBtn) {
       document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove("active"));
       activeBtn.classList.add("active");
+    }
+    function showGallery(galleryToShow) {
+        categoryGallery.style.display = "none";
+        dateGallery.style.display = "none";
+        locationGallery.style.display = "none";
+
+        document.getElementById(galleryToShow).style.display = "block";
     }
 
     sortCategory.addEventListener("click", function () {
@@ -231,6 +308,32 @@
       setActiveButton(sortLocation);
     });
 
+    // 点击汉堡按钮，切换菜单显示
+    mobileMenuBtn.addEventListener("click", function () {
+      mobileMenu.style.display = mobileMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // 移动端分类切换
+    sortButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            const selectedSort = this.getAttribute("data-sort");
+
+            // 设置选中的分类
+            if (selectedSort === "category") {
+                showGallery("category-gallery");
+                setActiveButton(sortCategory);
+            } else if (selectedSort === "location") {
+                showGallery("location-gallery");
+                setActiveButton(sortLocation);
+            } else if (selectedSort === "date") {
+                showGallery("date-gallery");
+                setActiveButton(sortDate);
+            }
+
+            // 关闭菜单
+            mobileMenu.style.display = "none";
+        });
+      });
     // 显示大图 Overlay
     const imageLinks = document.querySelectorAll('.image-link');
     const overlay = document.getElementById('image-overlay');
