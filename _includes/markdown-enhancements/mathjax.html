@@ -5,13 +5,21 @@
   source0=site.mathjax_autoNumber source1=page.mathjax_autoNumber -%}
 {%- assign _mathjax_autoNumber = __return -%}
 
-<script type="text/x-mathjax-config">
-	var _config = { tex2jax: {
-		inlineMath: [['$','$'], ['\\(','\\)']]
-	}};
-	{%- if _mathjax_autoNumber == true -%}
-		_config.TeX = { equationNumbers: { autoNumber: "all" } };
-	{%- endif -%}
-	MathJax.Hub.Config(_config);
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    },
+    svg: { fontCache: 'global' },
+    startup: {
+      ready: () => {
+        console.log("MathJax is ready!");
+        MathJax.startup.defaultReady();
+        MathJax.typesetPromise();
+      }
+    }
+  };
 </script>
-<script type="text/javascript" src="{{ _sources.mathjax }}" async></script>
+
+<script type="text/javascript" async src="{{ _sources.mathjax }}"></script>

@@ -107,7 +107,7 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: addthis # false (default), "addtoany", "addthis"
+  provider: false # false (default), "addtoany", "addthis"
 
   ## AddThis
   addthis:
@@ -170,6 +170,9 @@ analytics:
 markdown    : kramdown
 highlighter : rouge
 permalink   : date
+kramdown:
+  math_engine: mathjax
+
 
 exclude:
   - CHANGELOG.md
