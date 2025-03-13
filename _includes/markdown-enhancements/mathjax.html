@@ -10,6 +10,9 @@
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      {% if _mathjax_autoNumber == true %}
+      tags: 'ams',
+      {% endif %}
     },
     svg: { fontCache: 'global' },
     startup: {
