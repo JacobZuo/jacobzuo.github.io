@@ -1,48 +1,34 @@
 ---
-layout: landing
+layout: page
 comment: false
-title: Welcome to Jacob Press on Github
+header: false
 mode: immersive
-header:
-  theme: dark
-article_header:
-  type: overlay
-  theme: light
-  background_color: '#336699'
-  background_image:
-    src: cover.jpg
+full_width: true
+footer: false
+show_title: false
 ---
 
-<div class="hero hero--center">
-  <img src="\assets\images\Reading.jpg"/>
-  <div class="hero hero--center" style="position: absolute; padding-top: 30%; width: 100%">
-  <h2>Gain Ideas from Visionaries</h2>
+<div class="hero hero--center hero--light overlay" style="min-height:100vh;">
+  <div class="carousel" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
+  <div class="slides" style="position: relative; display: flex; width: 900%; transition: transform 1s ease-in-out;">
+    <div class="slide" style="background-image: url('cover.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2023/DSC03133.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2024/DSC01515-已增强-降噪.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2024/DSC02255.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2024/DSC02753-已增强-降噪.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2024/DSC03927.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2024/DSC04378.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
+    <div class="slide" style="background-image: url('gallery/2023/DSC04726-HDR.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
   </div>
+  <div class="overlay" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+    <h1>Welcome to Jacob Press</h1>
+  <h3>
+    <a class="button button--success button--pill button--lg" href="/blog/index.html"><i class="fas fa-book-open"></i> BLOG</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a class="button button--info button--pill button--lg" href="/gallery.html"><i class="fas fa-image"></i> GALLERY</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="button button--primary button--pill button--lg" href="/about.html"><i class="fas fa-address-card"></i> ABOUT ME</a>
+  </h3>
+  </div>
+</div>
 </div>
 
-<div class="hero hero--center">
-  <img src="\assets\images\Research.jpg"/>
-  <div class="hero hero--center hero--dark" style="position: absolute; padding-top: 30%; width: 100%">
-    <h2>Explore Bravely but Cautiously</h2>
-  </div>
-</div>
-
-<div class="hero hero--center">
-  <img src="\assets\images\Design.jpg"/>
-  <div class="hero hero--center" style="position: absolute; padding-top: 30%; width: 100%">
-    <h2>Make Accuracy with Beauty</h2>
-  </div>
-</div>
-
-<div class="hero hero--center">
-  <img src="\assets\images\Coding.jpg"/>
-  <div class="hero hero--center hero--dark" style="position: absolute; padding-top: 30%; width: 100%">
-    <h2>Create Things beyond Ingenuity</h2>
-  </div>
-</div>
-
-<div class="hero hero--center" style="background-color: #1A1F16;">
-  <div class="hero__content" style="padding-top: 3rem; padding-bottom: 0rem;">
-    <h3><a class="button button--success button--pill button--lg" href="/blog/index.html"><i class="fas fa-book-open"></i> BLOG</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="button button--primary button--pill button--lg" href="/about.html"><i class="fas fa-address-card"></i> ABOUT ME</a></h3>
-  </div>
-</div>
+{% include index.html %}

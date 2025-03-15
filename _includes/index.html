@@ -1,0 +1,32 @@
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let index = 0;
+    const slides = document.querySelector(".slides");
+    const totalSlides = document.querySelectorAll(".slide").length;
+
+    // Duplicate first slide to the end for a seamless loop
+    const firstSlide = document.querySelector(".slide").cloneNode(true);
+    slides.appendChild(firstSlide);
+
+    function nextSlide() {
+        index++;
+
+        slides.style.transition = "transform 1s ease-in-out";
+        slides.style.transform = `translateX(-${index * 100/9}%)`;
+
+        // If we reach the last cloned slide, instantly reset to first slide
+        if (index === totalSlides) {
+            setTimeout(() => {
+                slides.style.transition = "none"; // Disable transition for instant reset
+                slides.style.transform = "translateX(0%)";
+                index = 0; // Reset index
+            }, 1000); // Delay to match transition time
+        }
+    }
+
+    // Auto-slide every 5 seconds
+    setInterval(nextSlide, 5000);
+
+  });
+</script>
