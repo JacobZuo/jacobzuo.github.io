@@ -21,11 +21,11 @@ show_title: false
     <div class="slide" style="background-image: url('gallery/2023/DSC04726-HDR.jpg'); width: 12.5%; height: 100vh; background-size: cover; background-position: center;"></div>
   </div>
   <div class="overlay" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
-    <h1>Welcome to Jacob Press</h1>
+    <h1 style="color: rgba(16, 16, 16, 0.8)">Welcome to Jacob Press</h1>
   <h3>
-    <a class="button button--success button--pill button--lg" href="/blog/index.html"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-    <a class="button button--info button--pill button--lg" href="/gallery.html"><i class="fas fa-image"></i>&nbsp;&nbsp;&nbsp;GALLERY&nbsp;&nbsp;&nbsp;</a>
-    <a class="button button--primary button--pill button--lg" href="/about.html"><i class="fas fa-address-card"></i>&nbsp;ABOUT ME&nbsp;</a>
+    <a class="button button--outline-secondary button--pill button--lg" href="/blog/index.html"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a class="button button--outline-secondary button--pill button--lg" href="/gallery.html"><i class="fas fa-image"></i>&nbsp;&nbsp;&nbsp;GALLERY&nbsp;&nbsp;&nbsp;</a>
+    <a class="button button--outline-secondary button--pill button--lg" href="/about.html"><i class="fas fa-address-card"></i>&nbsp;ABOUT ME&nbsp;</a>
   </h3>
   </div>
 </div>
