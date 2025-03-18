@@ -62,9 +62,9 @@
 }
 
 .button--outline-secondary {
-  color: #42546b;
-  border: 1px solid #42546b;
-  @include clickable(#42546b, transparent, $text-color-3, #42546b);
+  color: #435670;
+  border: 1px solid #435670;
+  @include clickable(#435670, transparent, $text-color-3, #435670);
 }
 
 .button--outline-success {
