@@ -19,7 +19,7 @@
   }
   .overlay-index-text {
     position: absolute; 
-    top: 80%; 
+    top: 85%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center; 
@@ -30,9 +30,8 @@
     --bg-size: 400%;
     --color-one: hsla(215, 25%, 20%, 0.9);
     --color-two: hsla(200, 70%, 90%, 0.5);
-    font-size: clamp(3rem, 25vmin, 8rem);
     background: linear-gradient(
-                  120deg,
+                  75deg,
                   var(--color-one),
                   var(--color-one),
                   var(--color-two),
@@ -46,9 +45,64 @@
     animation: move-bg 16s infinite linear;
     filter: drop-shadow(10px 10px 10px rgba(90, 90, 90, 0.9)); /* 额外的柔和光晕 */
   } 
+  .boujee-botton {
+    margin-bottom: 10px;
+    display: inline-block;
+    --bg-size: 400%;
+    --color-one: hsla(215, 25%, 20%, 0.9);
+    --color-two: hsla(200, 70%, 90%, 0.5);
+    background: linear-gradient(
+                  75deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one),
+                  var(--color-one),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 16s infinite linear;
+    filter: drop-shadow(10px 10px 10px rgba(90, 90, 90, 0.9)); /* 额外的柔和光晕 */
+  } 
+
+  .boujee-botton:hover {
+    margin-bottom: 10px;
+    display: inline-block;
+    --bg-size: 400%;
+    --color-one: hsla(215, 25%, 20%, 0.9);
+    --color-two: hsla(200, 70%, 90%, 0.6);
+    --color-three: hsla(201, 52%, 39%, 0.8);
+    background: linear-gradient(
+                  120deg,
+                  var(--color-one),
+                  var(--color-one),
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-three),
+                  var(--color-one),
+                  var(--color-one),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: hsla(200, 10%, 95%, 0.9);
+    -webkit-text-fill-color: hsla(200, 10%, 95%, 0.9);
+    background-clip: none;
+    -webkit-background-clip: none;
+    animation: move-bg 6s infinite linear;
+    filter: drop-shadow(10px 10px 10px rgba(90, 90, 90, 0.9)); /* 额外的柔和光晕 */
+  }
+
+
   @media (prefers-reduced-motion: no-preference) {
   .boujee-text {
     animation: move-bg 16s linear infinite;
+  }
+  .boujee-botton {
+    animation: move-bg 16s linear infinite;
+  }
+  .boujee-botton:hover {
+    animation: move-bg 6s linear infinite;
   }
   @keyframes move-bg {
     from {
