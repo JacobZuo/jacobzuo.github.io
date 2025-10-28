@@ -69,29 +69,31 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 ## Publications
 
-**[1]** Zepeng Qu\*, Hongbin Liu\*, Ji Yang\*, Linggang Zheng, Jumin Huang, Ziming Wang, Chun Xie, **Wenlong Zuo**, Xiong Xia, Lin Sun, Yifa Zhou, Ying Xie, Jingguang Lu, Yizhun Zhu, Lili Yu, Lihua Liu, Hua Zhou\#,, Lei Dai\#, Elaine Lai-Han Leung\#. (2025) Selective utilization of medicinal polysaccharides by human gut Bacteroides and Parabacteroides species. Nat Commun. Jan 14;16(1):638. [[Link]](https://www.nature.com/articles/s41467-025-55845-7).
+**[1]** Wu, Lu.\*, **Zuo, Wenlong.**\*, Cao, Zhaohui., Qu, Zepeng. & Dai, Lei\#. Profiling the heterogeneity of microbial populations and communities at the single‐cell level. mLife mlf2.70047 (2025) doi:10.1002/mlf2.70047. [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/mlf2.70047).
 
-**[2]** Lanxiang Wang\*, Yue Liu\*, Haoran Ni\*, **Wenlong Zuo**, Haimei Shi, Weixin Liao, Hongbin Liu et al. "Systematic characterization of plant-associated bacteria that can degrade indole-3-acetic acid." PLoS biology 22, no. 11 (2024): e3002921. [[Link]](https://journals.plos.org/Plosbiology/article?id=10.1371/journal.pbio.3002921).
+**[2]** Zepeng Qu\*, Hongbin Liu\*, Ji Yang\*, Linggang Zheng, Jumin Huang, Ziming Wang, Chun Xie, **Wenlong Zuo**, Xiong Xia, Lin Sun, Yifa Zhou, Ying Xie, Jingguang Lu, Yizhun Zhu, Lili Yu, Lihua Liu, Hua Zhou\#,, Lei Dai\#, Elaine Lai-Han Leung\#. (2025) Selective utilization of medicinal polysaccharides by human gut Bacteroides and Parabacteroides species. Nat Commun. Jan 14;16(1):638. [[Link]](https://www.nature.com/articles/s41467-025-55845-7).
 
-**[3]** Junbo Tang\*, **Wenlong Zuo**\*, Lizhen Guo, Zhihao Han, Chengfeng Yang, Benfeng Han, Lei Dai\#, Xue Zhang\#, Xin Zhou\#. (2024). Synergistic pectin deconstruction is a prerequisite for mutualistic interactions between honeybee gut bacteria. Nat Commun 15, 6937. (\* co-first authors). [[Link]](https://doi.org/10.1038/s41467-024-51365-y).
+**[3]** Lanxiang Wang\*, Yue Liu\*, Haoran Ni\*, **Wenlong Zuo**, Haimei Shi, Weixin Liao, Hongbin Liu et al. "Systematic characterization of plant-associated bacteria that can degrade indole-3-acetic acid." PLoS biology 22, no. 11 (2024): e3002921. [[Link]](https://journals.plos.org/Plosbiology/article?id=10.1371/journal.pbio.3002921).
 
-**[4]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun, 15, 2406. [[Link]](https://doi.org/10.1038/s41467-024-46766-y).
+**[4]** Junbo Tang\*, **Wenlong Zuo**\*, Lizhen Guo, Zhihao Han, Chengfeng Yang, Benfeng Han, Lei Dai\#, Xue Zhang\#, Xin Zhou\#. (2024). Synergistic pectin deconstruction is a prerequisite for mutualistic interactions between honeybee gut bacteria. Nat Commun 15, 6937. (\* co-first authors). [[Link]](https://doi.org/10.1038/s41467-024-51365-y).
 
-**[5]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry, 14, 134. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
+**[5]** Lu Wu\*, Xu-Wen Wang\*, Zining Tao, Tong Wang, **Wenlong Zuo**, Yu Zeng, Yang-Yu Liu\#, Lei Dai\#. (2024). Data-driven prediction of colonization outcomes for complex microbial communities. Nat Commun, 15, 2406. [[Link]](https://doi.org/10.1038/s41467-024-46766-y).
 
-**[6]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun, 14, 1477. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
+**[6]** Bo Peng\*, Ruoxi Wang\*, **Wenlong Zuo**\*, et al. (2024). Distinct correlation network of clinical characteristics in suicide attempters having adolescent major depressive disorder with non-suicidal self-injury. Translational Psychiatry, 14, 134. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41398-024-02843-w).
 
-**[7]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
+**[7]** Zhaohui Cao\*, **Wenlong Zuo**\*, Lanxiang Wang, et al. (2023). Spatial profiling of microbial communities by sequential FISH with error-robust encoding. Nat Commun, 14, 1477. (\* co-first authors). [[Link]](https://www.nature.com/articles/s41467-023-37188-3).
 
-**[8]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.[[Link]](https://iopscience.iop.org/article/10.1088/0256-307X/31/7/076801/meta)
+**[8]** **Zuo, Wenlong.** & Wu, Yilin. (2020). Dynamic motility selection drives population segregation in a bacterial swarm. Proc. Natl. Acad. Sci. 201917789.[[Link]](https://www.pnas.org/content/117/9/4693)
 
-**[9]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors). [[Link]](https://pubs.acs.org/doi/abs/10.1021/jp509191b)
+**[9]** Xiong, X.-M., Chen, L., **Zuo, W.-L**., Li, L.-F., Yang, Y.-B., Pang, Z.-Y., & Zhang, J.-X. (2014). Imaginary Part of the Surface Tension of Water. Chinese Physics Letters, 31(7), 76801.[[Link]](https://iopscience.iop.org/article/10.1088/0256-307X/31/7/076801/meta)
 
-**[10]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
+**[10]** Chen, L.\*, **Zuo, W.**\*, Li, L., Yang, Y., Zhang, J., & Xiong, X. (2014). Role of Complex Surface Tension in the Dispersion Relation of a Capillary Wave. The Journal of Physical Chemistry C, 118(46), 26877–26881. (\* co-first authors). [[Link]](https://pubs.acs.org/doi/abs/10.1021/jp509191b)
 
-**[11]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+**[11]** **Zuo W**, Li L, Yang Y, et al. Resonant frequency and damping of a coupled resonant system measured by apparent dissipation factor frequency spectra[J]. Review of Scientific Instruments. 2013, 84(8): 85110.
 
-**[12]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
+**[12]** Yang Y. B., **Zuo, W. L**., Bao Y. X., et al. Detection of a coupled vibration by mechanical resonant absorption spectra[J]. ACTA PHYSICA SINICA. 2012, 61(20050920).
+
+**[13]** Yang Y. B., **Zuo, W. L.**, Bao Y. X., et al. Delay Induced Error Analysis for the Pendulum based Mechanical Spectra Instrument in the Forced Vibration Mode[J]. Acta Scientiarum Naturalium Universitatis Sunyatseni, Vol. 51,0529-6579(2012).
 
 ## Conference presentations
 
