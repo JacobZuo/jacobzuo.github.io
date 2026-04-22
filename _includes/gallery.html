@@ -1,15 +1,10 @@
 <div class="filter-options">
-  <!-- 桌面端分类按钮 -->
-  <span id="sort-category" class="sort-btn active desktop-only">Category</span>  
+  <span id="sort-category" class="sort-btn active desktop-only">Category</span>
   <span class="desktop-only"> | </span>
-  <span id="sort-location" class="sort-btn desktop-only">Location</span>  
+  <span id="sort-location" class="sort-btn desktop-only">Location</span>
   <span class="desktop-only"> | </span>
   <span id="sort-date" class="sort-btn desktop-only">Date</span>
-
-  <!-- 移动端汉堡菜单按钮 -->
   <button id="mobile-menu-btn" class="mobile-only">≡</button>
-
-  <!-- 移动端菜单 -->
   <div id="mobile-menu" class="mobile-menu mobile-only">
     <button class="mobile-sort-btn mobile-only" data-sort="category">Category</button>
     <button class="mobile-sort-btn mobile-only" data-sort="location">Location</button>
@@ -18,18 +13,16 @@
 </div>
 
 <div class="image-gallery" id="image-gallery">
-  <!-- 分类显示区域 -->
-  <div id="category-gallery" class="gallery-container">
+  <div id="category-gallery" class="gallery-container active">
     {% assign sorted_by_category = site.data.gallery | sort: "category" %}
     {% assign categorized_images = sorted_by_category | group_by: "category" %}
     {% for category in categorized_images %}
-      <!-- 按时间倒序排列 -->
       {% assign sorted_images = category.items | sort: "date" | reverse %}
-      <div class="category-group">
+      <div class="category-group" data-category="{{ category.name }}">
         <h3>{{ category.name }}</h3>
         <div class="images">
           {% for image in sorted_images %}
-            <div class="box">
+            <div class="box lazy-item" data-index="{{ forloop.index0 }}">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
               </a>
@@ -40,16 +33,15 @@
     {% endfor %}
   </div>
 
-  <!-- 按日期排序显示区域 -->
-  <div id="date-gallery" class="gallery-container" style="display:none;">
+  <div id="date-gallery" class="gallery-container">
     {% assign sorted_by_date = site.data.gallery | sort: "date" | reverse %}
     {% assign grouped_by_date = sorted_by_date | group_by: "date" %}
     {% for group in grouped_by_date %}
-      <div class="date-group">
+      <div class="date-group" data-date="{{ group.name }}">
         <h3>{{ group.name }}</h3>
         <div class="images">
           {% for image in group.items %}
-            <div class="box">
+            <div class="box lazy-item" data-index="{{ forloop.index0 }}">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
               </a>
@@ -60,17 +52,15 @@
     {% endfor %}
   </div>
 
-  <!-- 按 Location 排序显示区域 -->
-  <div id="location-gallery" class="gallery-container" style="display:none;">
+  <div id="location-gallery" class="gallery-container">
     {% assign location_grouped = site.data.gallery | group_by: "location" %}
     {% for location in location_grouped %}
-      <!-- 让 Location 下的图片也按照时间倒序排列 -->
       {% assign sorted_location_images = location.items | sort: "date" | reverse %}
-      <div class="location-group">
+      <div class="location-group" data-location="{{ location.name }}">
         <h3>{{ location.name }}</h3>
         <div class="images">
           {% for image in sorted_location_images %}
-            <div class="box">
+            <div class="box lazy-item" data-index="{{ forloop.index0 }}">
               <a href="#" class="image-link" data-image="{{ image.image_path }}" data-description="{{ image.description }}">
                 <img src="{{ image.thumbnail_path }}" alt="{{ image.name }}" title="{{ image.name }}" class="img-gallery" loading="lazy" />
               </a>
@@ -82,11 +72,15 @@
   </div>
 </div>
 
-<!-- Overlay for large image -->
-<div id="image-overlay" class="overlay" style="display:none;">
+<div id="scroll-sentinel"></div>
+
+<div id="image-overlay" class="overlay">
   <span id="close-overlay" class="close-btn">×</span>
+  <span id="prev-image" class="nav-btn">‹</span>
+  <span id="next-image" class="nav-btn">›</span>
   <img id="overlay-image" src="" alt="">
   <div id="overlay-description" class="overlay-description"></div>
+  <div id="overlay-counter" class="overlay-counter"></div>
 </div>
 
 <style>
@@ -97,43 +91,31 @@
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
-  
-  /* 移动端 & 桌面端的可见性控制 */
-  .desktop-only {
-    display: inline-block; /* 仅桌面端可见 */
-  }
-  .mobile-only {
-    display: none; /* 仅移动端可见 */
-  }
+
+  .desktop-only { display: inline-block; }
+  .mobile-only { display: none; }
 
   @media (max-width: 768px) {
-    .desktop-only {
-      display: none; /* 移动端隐藏桌面按钮 */
-    }
-
+    .desktop-only { display: none; }
     .mobile-only {
-      display: inline-block; /* 移动端显示汉堡菜单 */
+      display: inline-block;
       font-size: 32px;
       background: none;
       border: none;
       cursor: pointer;
     }
-
-    /* 移动端菜单样式 */
     .mobile-menu {
       display: none;
       position: absolute;
       right: 0px;
-      transform: translateX(-50%);
       background: white;
       border: 1px solid #ddd;
       border-radius: 5px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       padding: 10px;
       text-align: center;
-      
+      z-index: 100;
     }
-
     .mobile-menu button {
       display: block;
       width: 100%;
@@ -145,11 +127,9 @@
       cursor: pointer;
       text-align: center;
     }
-
-    .mobile-menu button:hover {
-      color: #0072c5;
-    }
+    .mobile-menu button:hover { color: #0072c5; }
   }
+
   .sort-btn {
     cursor: pointer;
     font-weight: bold;
@@ -157,12 +137,7 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-
-  .sort-btn:hover {
-    color: #0072c5;
-  }
-
-  /* 选中状态 */
+  .sort-btn:hover { color: #0072c5; }
   .sort-btn.active {
     color: #0072c5;
     border-bottom: 4px solid #0072c5;
@@ -170,15 +145,17 @@
   }
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 50px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .gallery-container.active {
+    display: block;
+    opacity: 1;
   }
 
   .category-group, .date-group, .location-group {
-    width: 100%;
-    margin: 0px 0;
+    margin-bottom: 30px;
   }
 
   .category-group h3, .date-group h3, .location-group h3 {
@@ -187,53 +164,104 @@
     margin: 20px 10px;
   }
 
-  .images {
+  .category-group .images, .date-group .images, .location-group .images {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
 
+  @media (max-width: 1200px) {
+    .category-group .images, .date-group .images, .location-group .images {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .category-group .images, .date-group .images, .location-group .images {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .category-group .images, .date-group .images, .location-group .images {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 400px) {
+    .category-group .images, .date-group .images, .location-group .images {
+      grid-template-columns: 1fr;
+    }
+  }
+
   .box {
-    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .box.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .img-gallery {
     width: 100%;
-    height: 150px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+    display: block;
     border-radius: 3px;
-    transition: transform 0.3s ease-in-out; /* 平滑过渡 */
+    transition: transform 0.3s ease-in-out, filter 0.5s ease;
+    filter: blur(5px);
+  }
+  .img-gallery.loaded {
+    filter: blur(0);
   }
   .img-gallery:hover {
-    transform: scale(1.1); /* 鼠标悬停时放大 1.1 倍 */
+    transform: scale(1.1);
     cursor: pointer;
   }
 
-  /* Overlay Styles */
+  #scroll-sentinel {
+    height: 1px;
+    width: 100%;
+  }
+
   .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .overlay.show {
+    display: flex;
+    opacity: 1;
   }
 
   .overlay img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 98%;
+    max-height: 88%;
     object-fit: contain;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transform: scale(0.9);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .overlay.show img {
+    transform: scale(1);
+    opacity: 1;
   }
 
   .overlay-description {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -242,128 +270,319 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
     border-radius: 5px;
-    display: inline-block;
     max-width: 80%;
-    box-sizing: border-box;
     word-wrap: break-word;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .overlay.show .overlay-description {
+    opacity: 1;
+  }
+
+  .overlay-counter {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ccc;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .overlay.show .overlay-counter {
+    opacity: 1;
   }
 
   .close-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 28px;
+    top: 15px;
+    right: 20px;
+    font-size: 32px;
     color: white;
     cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+  .close-btn:hover {
+    color: #ff4444;
+    opacity: 1;
   }
 
-  .close-btn:hover {
-    color: red;
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 300px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, color 0.3s ease;
+    z-index: 10;
+  }
+  .nav-btn:hover {
+    color: #0072c5;
+    opacity: 1;
+  }
+  #prev-image {
+    left: 50px;
+  }
+  #next-image {
+    right: 50px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-btn {
+      font-size: 32px;
+      width: 60px;
+      height: 200px;
+    }
+    #prev-image { left: 10px; }
+    #next-image { right: 10px; }
+  }
+  .nav-btn:hover {
+    color: #0072c5;
+    opacity: 1;
+  }
+  #prev-image { left: 20px; }
+  #next-image { right: 20px; }
+
+  @media (max-width: 768px) {
+    .nav-btn { font-size: 32px; padding: 10px; }
+    #prev-image { left: 5px; }
+    #next-image { right: 5px; }
   }
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const sortCategory = document.getElementById("sort-category");
-    const sortDate = document.getElementById("sort-date");
-    const sortLocation = document.getElementById("sort-location");
+(function() {
+  var ITEMS_PER_PAGE = 30;
+  var loadedCounts = { category: ITEMS_PER_PAGE, date: ITEMS_PER_PAGE, location: ITEMS_PER_PAGE };
 
-    const categoryGallery = document.getElementById("category-gallery");
-    const dateGallery = document.getElementById("date-gallery");
-    const locationGallery = document.getElementById("location-gallery");
+  function getBoxes(container) {
+    return Array.from(container.querySelectorAll('.box'));
+  }
 
+  function showItemsForGroup(group) {
+    var container = group;
+    var type = container.id.replace('-gallery', '');
+    var boxes = getBoxes(container);
+    var count = loadedCounts[type] || ITEMS_PER_PAGE;
 
-    const mobileMenuBtn = document.getElementById("mobile-menu-btn");
-    const mobileMenu = document.getElementById("mobile-menu");
-    const sortButtons = document.querySelectorAll(".mobile-sort-btn");
-
-    function setActiveButton(activeBtn) {
-      document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove("active"));
-      activeBtn.classList.add("active");
-    }
-    function showGallery(galleryToShow) {
-        categoryGallery.style.display = "none";
-        dateGallery.style.display = "none";
-        locationGallery.style.display = "none";
-
-        document.getElementById(galleryToShow).style.display = "block";
-    }
-
-    sortCategory.addEventListener("click", function () {
-      categoryGallery.style.display = "block";
-      dateGallery.style.display = "none";
-      locationGallery.style.display = "none";
-      setActiveButton(sortCategory);
-    });
-
-    sortDate.addEventListener("click", function () {
-      categoryGallery.style.display = "none";
-      dateGallery.style.display = "block";
-      locationGallery.style.display = "none";
-      setActiveButton(sortDate);
-    });
-
-    sortLocation.addEventListener("click", function () {
-      categoryGallery.style.display = "none";
-      dateGallery.style.display = "none";
-      locationGallery.style.display = "block";
-      setActiveButton(sortLocation);
-    });
-
-    // 点击汉堡按钮，切换菜单显示
-    mobileMenuBtn.addEventListener("click", function () {
-      mobileMenu.style.display = mobileMenu.style.display === "block" ? "none" : "block";
-    });
-
-    // 移动端分类切换
-    sortButtons.forEach(button => {
-        button.addEventListener("click", function () {
-            const selectedSort = this.getAttribute("data-sort");
-
-            // 设置选中的分类
-            if (selectedSort === "category") {
-                showGallery("category-gallery");
-                setActiveButton(sortCategory);
-            } else if (selectedSort === "location") {
-                showGallery("location-gallery");
-                setActiveButton(sortLocation);
-            } else if (selectedSort === "date") {
-                showGallery("date-gallery");
-                setActiveButton(sortDate);
-            }
-
-            // 关闭菜单
-            mobileMenu.style.display = "none";
-        });
-      });
-    // 显示大图 Overlay
-    const imageLinks = document.querySelectorAll('.image-link');
-    const overlay = document.getElementById('image-overlay');
-    const overlayImage = document.getElementById('overlay-image');
-    const overlayDescription = document.getElementById('overlay-description');
-    const closeOverlay = document.getElementById('close-overlay');
-
-    imageLinks.forEach(link => {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const imageUrl = link.getAttribute('data-image');
-        const description = link.getAttribute('data-description');
-
-        overlayImage.src = imageUrl;
-        overlayDescription.innerHTML = description;
-        overlay.style.display = 'flex';
-      });
-    });
-
-    // 关闭大图 Overlay
-    closeOverlay.addEventListener('click', function () {
-      overlay.style.display = 'none';
-    });
-
-    overlay.addEventListener('click', function (event) {
-      if (event.target === overlay) {
-        overlay.style.display = 'none';
+    boxes.forEach(function(box, i) {
+      if (i < count) {
+        box.classList.add('visible');
+      } else {
+        box.classList.remove('visible');
       }
     });
+  }
+
+  function initGallery() {
+    var containers = document.querySelectorAll('.gallery-container');
+    containers.forEach(function(container) {
+      showItemsForGroup(container);
+      if (container.classList.contains('active')) {
+        container.style.display = 'block';
+        container.style.opacity = '1';
+      }
+    });
+  }
+
+  function loadMore(currentContainer) {
+    var type = currentContainer.id.replace('-gallery', '');
+    var boxes = getBoxes(currentContainer);
+    var currentCount = loadedCounts[type] || ITEMS_PER_PAGE;
+
+    if (currentCount >= boxes.length) return;
+
+    var nextCount = Math.min(currentCount + ITEMS_PER_PAGE, boxes.length);
+    loadedCounts[type] = nextCount;
+
+    boxes.forEach(function(box, i) {
+      if (i < nextCount) {
+        box.classList.add('visible');
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initGallery();
+
+    var sortCategory = document.getElementById('sort-category');
+    var sortDate = document.getElementById('sort-date');
+    var sortLocation = document.getElementById('sort-location');
+    var categoryGallery = document.getElementById('category-gallery');
+    var dateGallery = document.getElementById('date-gallery');
+    var locationGallery = document.getElementById('location-gallery');
+    var mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var sortButtons = document.querySelectorAll('.mobile-sort-btn');
+    var sentinel = document.getElementById('scroll-sentinel');
+
+    function setActiveButton(btn) {
+      document.querySelectorAll('.sort-btn').forEach(function(b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+    }
+
+    function showGallery(galleryId, btn) {
+      var galleries = [categoryGallery, dateGallery, locationGallery];
+      galleries.forEach(function(g) {
+        g.classList.remove('active');
+        g.style.display = 'none';
+        g.style.opacity = '0';
+      });
+
+      var target = document.getElementById(galleryId);
+      if (target) {
+        target.style.display = 'block';
+        target.classList.add('active');
+        requestAnimationFrame(function() {
+          target.style.opacity = '1';
+        });
+      }
+
+      setActiveButton(btn);
+    }
+
+    sortCategory.addEventListener('click', function() { showGallery('category-gallery', sortCategory); });
+    sortDate.addEventListener('click', function() { showGallery('date-gallery', sortDate); });
+    sortLocation.addEventListener('click', function() { showGallery('location-gallery', sortLocation); });
+
+    mobileMenuBtn.addEventListener('click', function() {
+      mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+    });
+
+    sortButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var sort = this.getAttribute('data-sort');
+        if (sort === 'category') showGallery('category-gallery', sortCategory);
+        else if (sort === 'location') showGallery('location-gallery', sortLocation);
+        else if (sort === 'date') showGallery('date-gallery', sortDate);
+        mobileMenu.style.display = 'none';
+      });
+    });
+
+    var isLoading = false;
+
+    function checkScroll() {
+      if (isLoading) return;
+      var activeContainer = document.querySelector('.gallery-container.active');
+      if (!activeContainer) return;
+      var boxes = getBoxes(activeContainer);
+      var type = activeContainer.id.replace('-gallery', '');
+      var loadedCount = loadedCounts[type] || ITEMS_PER_PAGE;
+
+      if (loadedCount >= boxes.length) return;
+
+      var lastVisibleBox = null;
+      boxes.forEach(function(box) {
+        if (box.classList.contains('visible')) {
+          var rect = box.getBoundingClientRect();
+          if (rect.top < window.innerHeight) {
+            lastVisibleBox = box;
+          }
+        }
+      });
+
+      if (lastVisibleBox) {
+        var rect = lastVisibleBox.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.8) {
+          isLoading = true;
+          loadMore(activeContainer);
+          setTimeout(function() { isLoading = false; }, 200);
+        }
+      }
+    }
+
+    window.addEventListener('scroll', checkScroll);
+    window.addEventListener('resize', checkScroll);
+
+    var overlay = document.getElementById('image-overlay');
+    var overlayImage = document.getElementById('overlay-image');
+    var overlayDescription = document.getElementById('overlay-description');
+    var overlayCounter = document.getElementById('overlay-counter');
+    var closeOverlay = document.getElementById('close-overlay');
+    var prevBtn = document.getElementById('prev-image');
+    var nextBtn = document.getElementById('next-image');
+    var currentImages = [];
+    var currentIndex = 0;
+
+    function getCurrentImages() {
+      var activeContainer = document.querySelector('.gallery-container.active');
+      if (!activeContainer) return [];
+      return Array.from(activeContainer.querySelectorAll('.image-link')).filter(function(link) {
+        return link.closest('.box').classList.contains('visible');
+      });
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (overlay.style.display !== 'none') {
+        if (e.key === 'Escape') closeOverlay.click();
+        else if (e.key === 'ArrowLeft') prevBtn.click();
+        else if (e.key === 'ArrowRight') nextBtn.click();
+      }
+    });
+
+    function openOverlay(imageUrl, description, index) {
+      currentImages = getCurrentImages();
+      currentIndex = index !== undefined ? index : currentImages.findIndex(function(link) {
+        return link.getAttribute('data-image') === imageUrl;
+      });
+      updateOverlayImage();
+      overlay.classList.add('show');
+    }
+
+    function updateOverlayImage() {
+      var link = currentImages[currentIndex];
+      if (link) {
+        overlayImage.src = link.getAttribute('data-image');
+        overlayDescription.innerHTML = link.getAttribute('data-description');
+        overlayCounter.textContent = (currentIndex + 1) + ' / ' + currentImages.length;
+      }
+    }
+
+    document.querySelectorAll('.image-link').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        openOverlay(link.getAttribute('data-image'), link.getAttribute('data-description'));
+      });
+    });
+
+    document.querySelectorAll('.img-gallery').forEach(function(img) {
+      if (img.complete) {
+        img.classList.add('loaded');
+      } else {
+        img.addEventListener('load', function() {
+          img.classList.add('loaded');
+        });
+      }
+    });
+
+    closeOverlay.addEventListener('click', function() {
+      overlay.classList.remove('show');
+    });
+
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) overlay.classList.remove('show');
+    });
+
+    prevBtn.addEventListener('click', function() {
+      if (currentImages.length === 0) return;
+      currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+      updateOverlayImage();
+    });
+
+    nextBtn.addEventListener('click', function() {
+      if (currentImages.length === 0) return;
+      currentIndex = (currentIndex + 1) % currentImages.length;
+      updateOverlayImage();
+    });
   });
+})();
 </script>
