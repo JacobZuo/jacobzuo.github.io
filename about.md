@@ -6,16 +6,21 @@ comments: false
 
 ## Contact
 
-Address: Floor 15, Block A, No. 108, Yongchuang Road, Guangming District, Shenzhen, Guangdong, P. R. China
+Address: Floor 6, Block B6, Guangyun Road 33, Nanhai District, Foshan, Guangdong, P. R. China
 
 Phone: 0086-136324\****5
 
-E-mail: zwlong ```at``` live.com; wl.zuo ```at``` siat.ac.cn
+E-mail: zwlong ```at``` live.com; zuowenlong ```at``` fosu.edu.cn
 
 ## Experience
 
+
 **Associate Professor**
-Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2025 -- Present
+School of Agricultural and Biological Engineering, Foshan University.  2026 -- Present
+
+
+**Associate Professor**
+Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.  2025 -- 2026
 
 
 **Research Assistant Professor**, 
