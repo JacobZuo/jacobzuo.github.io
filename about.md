@@ -73,11 +73,6 @@ Nonlinear behavior of soft matter by Fourier Mechanical Spectroscopy which detec
 
 
 ## Publications
-Cao, Zhaohui, Wenlong Zuo, Lanxiang Wang, and Lei Dai. “Spatial Mapping of Microbial Communities by an Integrated Automation Platform of Sequential FISH.” Cell Reports Methods 6, no. 5 (2026): 101381. https://doi.org/10.1016/j.crmeth.2026.101381.
-Zuo, Wenlong, Yang-Yu Liu, Juntao Shen, and Lei Dai. “Understanding Ripple Effects in the Gut Microbiome.” Cell Host & Microbe 34, no. 7 (2026): 1162–66. https://doi.org/10.1016/j.chom.2026.06.002.
-
-
-
 
 **[1]** **Zuo, Wenlong**, Yang-Yu Liu, Juntao Shen, and Lei Dai\#. Understanding Ripple Effects in the Gut Microbiome. Cell Host & Microbe 34, no. 7 (2026): 1162–66. https://doi.org/10.1016/j.chom.2026.06.002. [[Link]](https://authors.elsevier.com/a/1nPAl6t8JEyQmj).
 
